@@ -8,7 +8,6 @@ import json
 
 app = Flask(__name__)
 api = Api(app)
-port = 5100
 
 high_income_words = ["ingreso", "remuneracion", "sueldo", "trabajo"]
 low_income_words = ["spa", "deposito", "efectivo", "sociedad", "fundacion", "ingenieria", "transportes"]
@@ -231,4 +230,4 @@ def income_test(report):
         return result
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=port)
+    app.run(debug = True)
