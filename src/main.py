@@ -16,7 +16,7 @@ from src.third_stage import is_recurrent
 
 from src.has_income import has_income
 
-from src.metrics import metrics
+from src.metrics import metrics, not_income_metrics
 
 
 def main(json_data):
@@ -42,7 +42,7 @@ def main(json_data):
 
         HAS_INCOME, total_time_months = has_income(HI_TRANSACTIONS, MI_TRANSACTIONS, parameter_object.consecutividad_ingresos, parameter_object.ultimo_mes_a_considerar)
 
-        result = metrics(list_after_third_stage, MI_TRANSACTIONS, HI_TRANSACTIONS, total_time_months)
+        result = metrics(list_after_third_stage, MI_TRANSACTIONS, HI_TRANSACTIONS, total_time_months, initial_transaction_list)
         result["has_income"] = HAS_INCOME
 
         json_data["income"]["income_test_data"] = result
