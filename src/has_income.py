@@ -13,8 +13,8 @@ def has_income(HI_transaction_list, MI_transaction_list, income_window, last_con
     timelist = timelist.sort()[:len(timelist) - last_considered_month]
 
     if timelist[-income_window:-1] == complete_date_list(timelist[-income_window:-1]):
-        return True
-    return False
+        return True, len(timelist)
+    return False, len(timelist)
 
 def complete_date_list(timeList):
 

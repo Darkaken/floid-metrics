@@ -16,6 +16,8 @@ from src.third_stage import is_recurrent
 
 from src.has_income import has_income
 
+from src.metrics import metrics
+
 
 def main(json_data):
 
@@ -38,9 +40,12 @@ def main(json_data):
 
         MI_TRANSACTIONS = MI_TRANSACTIONS + MI_TRANSACTIONS_2
 
-        HAS_INCOME = has_income(HI_TRANSACTIONS, MI_TRANSACTIONS, parameter_object.consecutividad_ingresos, parameter_object.ultimo_mes_a_considerar)
+        HAS_INCOME, total_time_months = has_income(HI_TRANSACTIONS, MI_TRANSACTIONS, parameter_object.consecutividad_ingresos, parameter_object.ultimo_mes_a_considerar)
 
+        result = metrics(list_after_third_stage, MI_TRANSACTIONS, HI_TRANSACTIONS, total_time_months)
+        result["has_income"] = HAS_INCOME
 
+        json_data["income"]["income_test_data"] = result
 
         return json_data
 
@@ -81,6 +86,6 @@ def log_error(error_msg, json_data):
 
     error_object = ErrorLog(error_msg, json_data)
 
-    file_handler = open(f'error_log_{ErrorLog.log_counter}', 'wb')
+    file_handler = open(f'ErrorLogs/error_log_{ErrorLog.log_counter}.pickle', 'wb')
     pickle.dump(error_object, file_handler)
     file_handler.close()
