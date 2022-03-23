@@ -10,7 +10,8 @@ def has_income(HI_transaction_list, MI_transaction_list, income_window, last_con
         if date not in timelist:
             timelist.append(date)
 
-    timelist = timelist.sort()[:len(timelist) - last_considered_month]
+    timelist.sort()
+    timelist = timelist[:len(timelist) - last_considered_month]
 
     if timelist[-income_window:-1] == complete_date_list(timelist[-income_window:-1]):
         return True, len(timelist)

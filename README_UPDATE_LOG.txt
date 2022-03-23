@@ -1,6 +1,5 @@
 Floid Metrics Update Log
 
-
 ---------------------------------------------
 
 v.1.0
@@ -27,3 +26,38 @@ Route Changes:
 
 v.1.1
 
+  1. Route Update:
+
+        URL: /get_income
+        HTTP HEADER (expected input):
+            Floid Report JSON Object (structure as per JAN 2022) AND:
+
+            report["parametros"]: {
+
+                "monto_minimo_tranzado": int,
+                "not_income_words": list,
+                "high_income_words": list,
+                "medium_income_words": list,
+                "rut_minimo": int,
+                "consecutividad", int,
+                "consecutividad_ingresos": int,
+                "ultimo_mes_a_considerar": int
+            }
+
+        Expected Output: Floid Report JSON Object (structure as per JAN 2022)
+
+        Expected Changes:
+
+            report["income"]["income_test_data"]: {
+
+                "has_income": bool,
+                "monthly_high_confidence_income": int,
+                "monthly_medium_confidence_income": int,
+                "monthly_no_confidence_income": int
+            }
+
+  2. Route Enhancements:
+
+        1. Basic Error Handling
+        2. Unhandled Error Logging for future review and development (API 1.2 or 1.3)
+        3. Proyect structure update
