@@ -15,3 +15,13 @@ INCOME:
     4) Si es que la persona se considera "con ingreso -> Si es que tiene ingresos por X meses seguidos partiendo por el ultimo o penultimo mes
 
     Retorna el mismo objeto de JSON de input con un campo adicional en reporte["income"]["income_test_data"]. El detalle de esto se puede ver en el log de cambios (otro documento de texto en este repo)
+
+    https://floid-metrics.herokuapp.com/get_income_santander
+    
+    Utilizando el metodo POST y como input un reporte de FLOID en formato JSON, se calculan las siguientes cosas:
+    
+    1) Income de alta confianza
+    2) Si el cliente es valido o no segun el analisis de high income
+    
+    3) Income de media confianza
+    4) Si el cliente es valido o no segun el analisis de medium income
