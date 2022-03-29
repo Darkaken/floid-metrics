@@ -90,3 +90,4 @@ v1.2 Experimental
                 "medium_income_analysis_income" : int,
                 "medium_income_analysis_client_status" : bool
             }
+
