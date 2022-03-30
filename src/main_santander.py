@@ -33,7 +33,7 @@ def high_income_analysis(transactions_by_month_data, high_income_word_list, cons
     transactions_by_month_2 = transactions_by_month.copy()
 
     for date in transactions_by_month_2.keys():
-        if date not in dateList:
+        if int(date) not in dateList:
             del transactions_by_month[date]
 
     input = []
@@ -55,7 +55,7 @@ def high_income_analysis(transactions_by_month_data, high_income_word_list, cons
     avg_by_month_2 = avg_by_month.copy()
 
     for k in avg_by_month_2.keys():
-        avg_by_month[k] = sum(avg_by_month_2[k])
+        avg_by_month[k] = sum([x['in'] for x in avg_by_month_2[k]])
 
     monthly_average = sum([x for x in avg_by_month.values()]) / considered_window
 
@@ -69,7 +69,11 @@ def high_income_analysis(transactions_by_month_data, high_income_word_list, cons
         else:
             avg_by_month[k] = 0
 
+    print(monthly_average)
+    print(valid_income_months_counter)
+
     if valid_income_months_counter == 3:
+        print('hey')
         return round(monthly_average), True
     elif valid_income_months_counter == 2:
         return round((sum(avg_by_month.values()) / 2) * 0.8), True
@@ -152,5 +156,6 @@ def get_transactions_by_month(transaction_list):
 
         date = int("".join(transaction["date"].split("-")[:2]))
         transactions_by_month[str(date)].append(transaction)
+
 
     return [transactions_by_month, timelist]
