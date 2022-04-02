@@ -69,11 +69,7 @@ def high_income_analysis(transactions_by_month_data, high_income_word_list, cons
         else:
             avg_by_month[k] = 0
 
-    print(monthly_average)
-    print(valid_income_months_counter)
-
     if valid_income_months_counter == 3:
-        print('hey')
         return round(monthly_average), True
     elif valid_income_months_counter == 2:
         return round((sum(avg_by_month.values()) / 2) * 0.8), True
