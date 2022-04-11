@@ -1,0 +1,3162 @@
+{
+    "caseid": "57f7da67-e967-40a9-9f11-115b87e10e4b",
+    "consumerId": "15657410-4",
+    "parametros": {
+        "monto_minimo_tranzado": 50000,
+        "not_income_words": [
+            "afp",
+            "ife",
+            "diez",
+            "porciento",
+            "visa"
+        ],
+        "high_income_words": [
+            "sueldo",
+            "remuneracion",
+            "ingreso"
+        ],
+        "medium_income_words": [
+            "spa",
+            "fundacion",
+            "efectivo",
+            "deposito",
+            "ingenieria"
+        ],
+        "rut_minimo": 30000000,
+        "consecutividad": 3,
+        "consecutividad_ingresos": 3,
+        "ultimo_mes_a_considerar": 0
+    },
+    "products": {
+        "accounts": [
+            {
+                "type": "corriente",
+                "currency": "CLP",
+                "number": 15040290775,
+                "balance": 2108
+            }
+        ],
+        "cards": [
+            {
+                "number": "1614",
+                "type": "credito",
+                "name": "CMR Mastercard",
+                "CLP": {
+                    "total": 350000,
+                    "used": 346797,
+                    "available": 3203
+                }
+            }
+        ],
+        "lines": [
+            {
+                "number": 25040290770,
+                "CLP": {
+                    "total": 50000,
+                    "used": 49174,
+                    "available": 826
+                }
+            }
+        ]
+    },
+    "transactions": {
+        "accounts": [
+            {
+                "account_number": 15040290775,
+                "transactions": [
+                    {
+                        "date": "2021-01-04",
+                        "branch": null,
+                        "description": "MERCADOPAGO S A SANTIAGO CL",
+                        "doc_number": null,
+                        "out": 39525,
+                        "in": 0,
+                        "balance": 210465,
+                        "id": "0850ca8158711d70427d684f582a57831"
+                    },
+                    {
+                        "date": "2021-01-04",
+                        "branch": null,
+                        "description": "Transf. para Thania Aceiton",
+                        "doc_number": null,
+                        "out": 32000,
+                        "in": 0,
+                        "balance": 178465,
+                        "id": "bc8f83130d079773b7ac679cbba27a4b1"
+                    },
+                    {
+                        "date": "2021-01-04",
+                        "branch": null,
+                        "description": "Transf. para Thania Ripley",
+                        "doc_number": null,
+                        "out": 12980,
+                        "in": 0,
+                        "balance": 165485,
+                        "id": "db00500abab40fb627e42acf1ee89db41"
+                    },
+                    {
+                        "date": "2021-01-04",
+                        "branch": null,
+                        "description": "MERCADOPAGO S A SANTIAGO CL",
+                        "doc_number": null,
+                        "out": 57505,
+                        "in": 0,
+                        "balance": 107980,
+                        "id": "0047f8b33b1cb8fca6077f5c407eaec21"
+                    },
+                    {
+                        "date": "2021-01-04",
+                        "branch": null,
+                        "description": "MERCADOPAGO S A SANTIAGO CL",
+                        "doc_number": null,
+                        "out": 20015,
+                        "in": 0,
+                        "balance": 87965,
+                        "id": "ed0d66b0e3a7061f2f77731dbdf933841"
+                    },
+                    {
+                        "date": "2021-01-04",
+                        "branch": null,
+                        "description": "MERCADOPAGO S A SANTIAGO CL",
+                        "doc_number": null,
+                        "out": 27946,
+                        "in": 0,
+                        "balance": 60019,
+                        "id": "ecf1fd6811353baf9456915b7361fe5d1"
+                    },
+                    {
+                        "date": "2021-01-05",
+                        "branch": null,
+                        "description": "Transf. para Victor Pardo",
+                        "doc_number": null,
+                        "out": 14900,
+                        "in": 0,
+                        "balance": 45119,
+                        "id": "35a046819d06251ad30ef0e84728653f1"
+                    },
+                    {
+                        "date": "2021-01-06",
+                        "branch": null,
+                        "description": "Transf. de SELMA LIOSKA ACEITO",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 400000,
+                        "balance": 445119,
+                        "id": "0f21c04ba73676680dad9e24fc713d0f1"
+                    },
+                    {
+                        "date": "2021-01-06",
+                        "branch": null,
+                        "description": "Transf. para Transportestonini",
+                        "doc_number": null,
+                        "out": 200000,
+                        "in": 0,
+                        "balance": 245119,
+                        "id": "40098938270e07460715124f473487401"
+                    },
+                    {
+                        "date": "2021-01-06",
+                        "branch": null,
+                        "description": "SUPERMERCADO LA CASERA LAUTARO CL",
+                        "doc_number": null,
+                        "out": 21846,
+                        "in": 0,
+                        "balance": 223273,
+                        "id": "13bcbb8b91b80cc81243e692390d344e1"
+                    },
+                    {
+                        "date": "2021-01-07",
+                        "branch": null,
+                        "description": "Transf. para Thania Aceiton",
+                        "doc_number": null,
+                        "out": 23000,
+                        "in": 0,
+                        "balance": 200273,
+                        "id": "ceaf833b430887e499824907e3a6e34e1"
+                    },
+                    {
+                        "date": "2021-01-07",
+                        "branch": null,
+                        "description": "Transf. para Thania Aceiton",
+                        "doc_number": null,
+                        "out": 13000,
+                        "in": 0,
+                        "balance": 187273,
+                        "id": "e430ed487e9c075999f5d0ae9a8b612d1"
+                    },
+                    {
+                        "date": "2021-01-07",
+                        "branch": null,
+                        "description": "MERCADOPAGO S A SANTIAGO CL",
+                        "doc_number": null,
+                        "out": 23810,
+                        "in": 0,
+                        "balance": 163463,
+                        "id": "4a3a9e6e449405502b46ab685bed05ca1"
+                    },
+                    {
+                        "date": "2021-01-08",
+                        "branch": null,
+                        "description": "MERCADOPAGO S A SANTIAGO CL",
+                        "doc_number": null,
+                        "out": 28926,
+                        "in": 0,
+                        "balance": 134537,
+                        "id": "1dbb0169e9411bacbf522b636ffda6f01"
+                    },
+                    {
+                        "date": "2021-01-11",
+                        "branch": null,
+                        "description": "Transf. para Papa",
+                        "doc_number": null,
+                        "out": 4000,
+                        "in": 0,
+                        "balance": 130537,
+                        "id": "498f117e4facb39d473fe0671414bff71"
+                    },
+                    {
+                        "date": "2021-01-11",
+                        "branch": null,
+                        "description": "Transf. para Neison Aceiton",
+                        "doc_number": null,
+                        "out": 10000,
+                        "in": 0,
+                        "balance": 120537,
+                        "id": "b8f0b495d92a60578c7438e62121d2c51"
+                    },
+                    {
+                        "date": "2021-01-11",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 75213,
+                        "balance": 195750,
+                        "id": "593a3cee8d5abfe59f45cfca5f1336601"
+                    },
+                    {
+                        "date": "2021-01-11",
+                        "branch": null,
+                        "description": "ENTEL PCS PAGO EN LINE SANTIAGO CL",
+                        "doc_number": null,
+                        "out": 75213,
+                        "in": 0,
+                        "balance": 120537,
+                        "id": "0ef996089f6944224faefa9ce2ccf1a01"
+                    },
+                    {
+                        "date": "2021-01-11",
+                        "branch": null,
+                        "description": "Transf. de ACEITON PEDRERO SEL",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 179675,
+                        "balance": 300212,
+                        "id": "904c578bb07c124d7a0df28d4ef18a701"
+                    },
+                    {
+                        "date": "2021-01-11",
+                        "branch": null,
+                        "description": "ENTEL PCS PAGO EN LINE SANTIAGO CL",
+                        "doc_number": null,
+                        "out": 126412,
+                        "in": 0,
+                        "balance": 173800,
+                        "id": "354e59e506aeab08c34d27cbfc214ced1"
+                    },
+                    {
+                        "date": "2021-02-01",
+                        "branch": null,
+                        "description": "Transf. de SELMA LIOSKA ACEITO",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 278485,
+                        "balance": 375884,
+                        "id": "6fa1f316321284ebbea8f08a81f2f23c1"
+                    },
+                    {
+                        "date": "2021-02-01",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 188032,
+                        "in": 0,
+                        "balance": 187852,
+                        "id": "0dbba81aa16b9cc15d160ea9f777aa051"
+                    },
+                    {
+                        "date": "2021-02-01",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 60000,
+                        "balance": 247852,
+                        "id": "de996c9e0ddee925e51a39df822527971"
+                    },
+                    {
+                        "date": "2021-02-01",
+                        "branch": null,
+                        "description": "Transf. de SELMA ACEITON PEDRE",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 251000,
+                        "balance": 498852,
+                        "id": "8f88c046fc04b8f2d7829b09c12c1c071"
+                    },
+                    {
+                        "date": "2021-02-01",
+                        "branch": null,
+                        "description": "Transf. para Mio Itau",
+                        "doc_number": null,
+                        "out": 251000,
+                        "in": 0,
+                        "balance": 247852,
+                        "id": "f149f7a815071d7a264c31a1cdc82fe61"
+                    },
+                    {
+                        "date": "2021-02-01",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 32015,
+                        "in": 0,
+                        "balance": 215837,
+                        "id": "8f0f12dae2c001aab1c8a08f33be195f1"
+                    },
+                    {
+                        "date": "2021-02-02",
+                        "branch": null,
+                        "description": "Transf. de PEDRERO MIRANDA GLA",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 47790,
+                        "balance": 263627,
+                        "id": "3eaddb98fb61275b1a60f5f33eaf0d551"
+                    },
+                    {
+                        "date": "2021-02-02",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 60000,
+                        "balance": 323627,
+                        "id": "a6bf829d73ad0dfa23287d643c7da04d1"
+                    },
+                    {
+                        "date": "2021-02-03",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 54997,
+                        "in": 0,
+                        "balance": 268630,
+                        "id": "c81332cdc706dbe85426a745538139e61"
+                    },
+                    {
+                        "date": "2021-02-03",
+                        "branch": null,
+                        "description": "Transf. para Coopeuch Dale",
+                        "doc_number": null,
+                        "out": 5000,
+                        "in": 0,
+                        "balance": 263630,
+                        "id": "40e0ce9107950cc11d807380ed0dc2391"
+                    },
+                    {
+                        "date": "2021-02-05",
+                        "branch": null,
+                        "description": "Transf. de SELMA ACEITON PEDRE",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 180000,
+                        "balance": 443630,
+                        "id": "7e581c732b76f47431c1eae6a3c562d41"
+                    },
+                    {
+                        "date": "2021-02-05",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 180000,
+                        "in": 0,
+                        "balance": 263630,
+                        "id": "2ec5a27d7655df132b829a7bf1b604061"
+                    },
+                    {
+                        "date": "2021-02-08",
+                        "branch": null,
+                        "description": "Transf. para Thania Aceiton",
+                        "doc_number": null,
+                        "out": 8980,
+                        "in": 0,
+                        "balance": 254650,
+                        "id": "45754abdb05f3aef19a15c96fe1209011"
+                    },
+                    {
+                        "date": "2021-02-10",
+                        "branch": null,
+                        "description": "Transf. para Maria Quinteros",
+                        "doc_number": null,
+                        "out": 33000,
+                        "in": 0,
+                        "balance": 221650,
+                        "id": "e444f2b8416fdd83ca3706750b84b35a1"
+                    },
+                    {
+                        "date": "2021-02-10",
+                        "branch": null,
+                        "description": "Transf. de ACEITON PEDRERO SEL",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 110700,
+                        "balance": 332350,
+                        "id": "d16dac980fec3b5a7d7f254ea81611f31"
+                    },
+                    {
+                        "date": "2021-02-10",
+                        "branch": null,
+                        "description": "ENTEL PCS PAGO EN LINE SANTIAGO CL",
+                        "doc_number": null,
+                        "out": 110112,
+                        "in": 0,
+                        "balance": 222238,
+                        "id": "d96ea233bade12a859bb3451da28f3741"
+                    },
+                    {
+                        "date": "2021-02-11",
+                        "branch": null,
+                        "description": "SUPERMERCADO LA CASERA LAUTARO CL",
+                        "doc_number": null,
+                        "out": 45793,
+                        "in": 0,
+                        "balance": 176445,
+                        "id": "b4c39794fb098f50a51406cd371b30c81"
+                    },
+                    {
+                        "date": "2021-02-12",
+                        "branch": null,
+                        "description": "PAGO SERV IMPUESTOS INTERNOS",
+                        "doc_number": null,
+                        "out": 20141,
+                        "in": 0,
+                        "balance": 156304,
+                        "id": "0a15d6e81c41e551ba4eaa6b9cdd6ab11"
+                    },
+                    {
+                        "date": "2021-02-12",
+                        "branch": null,
+                        "description": "Transf. de THANIA ACEITON PEDR",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 20141,
+                        "balance": 176445,
+                        "id": "377021cd46fb405cac27a340c25873621"
+                    },
+                    {
+                        "date": "2021-02-12",
+                        "branch": null,
+                        "description": "Transf. para Gladys Pedrero",
+                        "doc_number": null,
+                        "out": 60000,
+                        "in": 0,
+                        "balance": 116445,
+                        "id": "3bdd4d328886275634a8dfa5ea717cd01"
+                    },
+                    {
+                        "date": "2021-03-01",
+                        "branch": null,
+                        "description": "Transf. para Thania Aceiton",
+                        "doc_number": null,
+                        "out": 11920,
+                        "in": 0,
+                        "balance": 53749,
+                        "id": "dc67e64cc5cf87403ee7aac485155b5e1"
+                    },
+                    {
+                        "date": "2021-03-01",
+                        "branch": null,
+                        "description": "Transf. de SELMA ACEITON PEDRE",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 500000,
+                        "balance": 553749,
+                        "id": "7f7f5225898f12983b6df1516dc42ab91"
+                    },
+                    {
+                        "date": "2021-03-01",
+                        "branch": null,
+                        "description": "Transf. para Mio Itau",
+                        "doc_number": null,
+                        "out": 252990,
+                        "in": 0,
+                        "balance": 300759,
+                        "id": "73a28fcc2cb1385b44bfafe618bf95f91"
+                    },
+                    {
+                        "date": "2021-03-01",
+                        "branch": null,
+                        "description": "Transf. para Mio",
+                        "doc_number": null,
+                        "out": 126000,
+                        "in": 0,
+                        "balance": 174759,
+                        "id": "a78ce09f9ab860ed89df10a8636837df1"
+                    },
+                    {
+                        "date": "2021-03-01",
+                        "branch": null,
+                        "description": "Transf. para Sebastian Robles",
+                        "doc_number": null,
+                        "out": 64450,
+                        "in": 0,
+                        "balance": 110309,
+                        "id": "a83fa7b30e077135161af2b319abe6001"
+                    },
+                    {
+                        "date": "2021-03-01",
+                        "branch": null,
+                        "description": "Transf. para Selma Tenpo",
+                        "doc_number": null,
+                        "out": 2000,
+                        "in": 0,
+                        "balance": 108309,
+                        "id": "49ef885098237b4181bac36f2ef52d321"
+                    },
+                    {
+                        "date": "2021-03-03",
+                        "branch": null,
+                        "description": "UNIV.DE CHILE NIC/CHIL SANTIAGO CL",
+                        "doc_number": null,
+                        "out": 27868,
+                        "in": 0,
+                        "balance": 80441,
+                        "id": "5ad03aa921f96281e5c1f593f1a97c6d1"
+                    },
+                    {
+                        "date": "2021-03-03",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 60000,
+                        "balance": 140441,
+                        "id": "70e6589889de554348dd7331c38a8bd51"
+                    },
+                    {
+                        "date": "2021-03-03",
+                        "branch": null,
+                        "description": "TRICARD SA SANTIAGO CL",
+                        "doc_number": null,
+                        "out": 46404,
+                        "in": 0,
+                        "balance": 94037,
+                        "id": "dbe443b64ec7b75b2e280419437e8d481"
+                    },
+                    {
+                        "date": "2021-03-04",
+                        "branch": null,
+                        "description": "SUPERMERCADO LA CASERA LAUTARO CL",
+                        "doc_number": null,
+                        "out": 61350,
+                        "in": 0,
+                        "balance": 32687,
+                        "id": "ef8266b0163c76d0d5c5f02c2ca5afec1"
+                    },
+                    {
+                        "date": "2021-03-05",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 700000,
+                        "balance": 732687,
+                        "id": "b41e0ee53793606c39f02b94c91410331"
+                    },
+                    {
+                        "date": "2021-03-05",
+                        "branch": null,
+                        "description": "PAGO SERV IMPUESTOS INTERNOS",
+                        "doc_number": null,
+                        "out": 257787,
+                        "in": 0,
+                        "balance": 474900,
+                        "id": "8c30964215df0d2c64562e6716b4df091"
+                    },
+                    {
+                        "date": "2021-03-05",
+                        "branch": null,
+                        "description": "PAGO BOTON DE PAGO PREVIRED",
+                        "doc_number": null,
+                        "out": 86686,
+                        "in": 0,
+                        "balance": 388214,
+                        "id": "5e4a0351a1cb5cc09e539a79eaeb7a5e1"
+                    },
+                    {
+                        "date": "2021-03-05",
+                        "branch": null,
+                        "description": "ENTEL PCS PAGO EN LINE SANTIAGO CL",
+                        "doc_number": null,
+                        "out": 74223,
+                        "in": 0,
+                        "balance": 313991,
+                        "id": "9a330388a1209a8217054125481b66101"
+                    },
+                    {
+                        "date": "2021-03-05",
+                        "branch": null,
+                        "description": "CLARO RECAUDACION SANTIAGO CL",
+                        "doc_number": null,
+                        "out": 11252,
+                        "in": 0,
+                        "balance": 302739,
+                        "id": "6561ef108e786c6b7afa3f7f94a2ea221"
+                    },
+                    {
+                        "date": "2021-03-05",
+                        "branch": null,
+                        "description": "GLOBAL SANTIAGO CL",
+                        "doc_number": null,
+                        "out": 175959,
+                        "in": 0,
+                        "balance": 126780,
+                        "id": "9f0bebf1f5f3415eadbb646a21cf845c1"
+                    },
+                    {
+                        "date": "2021-03-08",
+                        "branch": null,
+                        "description": "Transf. para Gladys Pedrero",
+                        "doc_number": null,
+                        "out": 36510,
+                        "in": 0,
+                        "balance": 90270,
+                        "id": "6197a52e1dd5aafb140ffa3f46b0f61b1"
+                    },
+                    {
+                        "date": "2021-03-08",
+                        "branch": null,
+                        "description": "Transf. para Selma Tenpo",
+                        "doc_number": null,
+                        "out": 12000,
+                        "in": 0,
+                        "balance": 78270,
+                        "id": "64fc972cdf6169cbe22f3e2e9ba2ecb21"
+                    },
+                    {
+                        "date": "2021-03-11",
+                        "branch": null,
+                        "description": "Transf. para Selma Tenpo",
+                        "doc_number": null,
+                        "out": 13000,
+                        "in": 0,
+                        "balance": 65270,
+                        "id": "156c512bb356c1c01efd2d0c5d1ecd6d1"
+                    },
+                    {
+                        "date": "2021-03-11",
+                        "branch": null,
+                        "description": "MUNI DE MACUL SANTIAGO CL",
+                        "doc_number": null,
+                        "out": 25489,
+                        "in": 0,
+                        "balance": 39781,
+                        "id": "72ab4e240246e6ec7655ed22d684ecd71"
+                    },
+                    {
+                        "date": "2021-04-01",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 69615,
+                        "balance": 195192,
+                        "id": "298681d50cd6cf4f483dfe80271f08491"
+                    },
+                    {
+                        "date": "2021-04-01",
+                        "branch": null,
+                        "description": "Transf. para Productora Punto",
+                        "doc_number": null,
+                        "out": 69615,
+                        "in": 0,
+                        "balance": 125577,
+                        "id": "9444cd59c0bf509843b532634eb46ee21"
+                    },
+                    {
+                        "date": "2021-04-01",
+                        "branch": null,
+                        "description": "SUPEROFERTA SPA TEMUCO CL",
+                        "doc_number": null,
+                        "out": 47232,
+                        "in": 0,
+                        "balance": 78345,
+                        "id": "edf0456d7ea8ff221ced9f12594698fb1"
+                    },
+                    {
+                        "date": "2021-04-01",
+                        "branch": null,
+                        "description": "LA TIA KATY LAUTARO CL",
+                        "doc_number": null,
+                        "out": 11520,
+                        "in": 0,
+                        "balance": 66825,
+                        "id": "b6d0b93378f8f10ccf6dce44c78ca3e41"
+                    },
+                    {
+                        "date": "2021-04-01",
+                        "branch": null,
+                        "description": "LA TIA KATY LAUTA",
+                        "doc_number": null,
+                        "out": 11520,
+                        "in": 0,
+                        "balance": 55305,
+                        "id": "b6d0b93378f8f10ccf6dce44c78ca3e42"
+                    },
+                    {
+                        "date": "2021-04-01",
+                        "branch": null,
+                        "description": "SUPEROFERTA SPA TEMUC",
+                        "doc_number": null,
+                        "out": 47232,
+                        "in": 0,
+                        "balance": 8073,
+                        "id": "edf0456d7ea8ff221ced9f12594698fb2"
+                    },
+                    {
+                        "date": "2021-04-05",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 60000,
+                        "balance": 68073,
+                        "id": "f191c84a1e66c43b2641d53cca37acdd1"
+                    },
+                    {
+                        "date": "2021-04-05",
+                        "branch": null,
+                        "description": "Rev. LA TIA KATY LAUTARO CL 01/04/2021",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 11520,
+                        "balance": 79593,
+                        "id": "8e7b6a06aff52b0d44418eae1b69ae471"
+                    },
+                    {
+                        "date": "2021-04-05",
+                        "branch": null,
+                        "description": "Rev. SUPEROFERTA SPA TEMUCO CL 01/04/2021",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 47232,
+                        "balance": 126825,
+                        "id": "3fd9598c73adae21d4269ffd95314b311"
+                    },
+                    {
+                        "date": "2021-04-05",
+                        "branch": null,
+                        "description": "Transf. para Neison Aceiton",
+                        "doc_number": null,
+                        "out": 40000,
+                        "in": 0,
+                        "balance": 86825,
+                        "id": "2c63f7806d84d3e2bc2889dddc547aaf1"
+                    },
+                    {
+                        "date": "2021-04-05",
+                        "branch": null,
+                        "description": "LUMIBEN LAUTARO CL",
+                        "doc_number": null,
+                        "out": 6900,
+                        "in": 0,
+                        "balance": 79925,
+                        "id": "4f385d3fbd1961e8f858b8500161fa951"
+                    },
+                    {
+                        "date": "2021-04-05",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 90000,
+                        "balance": 169925,
+                        "id": "5bacfffe27c368fc5e26fdfdf164121c1"
+                    },
+                    {
+                        "date": "2021-04-05",
+                        "branch": null,
+                        "description": "NOTARIA ESMIRNA VIDAL TEMUCO CL",
+                        "doc_number": null,
+                        "out": 3000,
+                        "in": 0,
+                        "balance": 166925,
+                        "id": "7e408281a1973ebacce537ca8a318fdd1"
+                    },
+                    {
+                        "date": "2021-04-05",
+                        "branch": null,
+                        "description": "SALCOBRAND BULNES 532 TEMUCO CL",
+                        "doc_number": null,
+                        "out": 41876,
+                        "in": 0,
+                        "balance": 125049,
+                        "id": "0eccac28191aafc4f9cdd0f587684b871"
+                    },
+                    {
+                        "date": "2021-04-05",
+                        "branch": null,
+                        "description": "PRE/UNIC TEMUCO TEMUCO CL",
+                        "doc_number": null,
+                        "out": 32777,
+                        "in": 0,
+                        "balance": 92272,
+                        "id": "b78d3b096a9d1e0135fc9b961134c8d11"
+                    },
+                    {
+                        "date": "2021-04-05",
+                        "branch": null,
+                        "description": "FARMACIAS DEL DR SIMI TEMUCO CL",
+                        "doc_number": null,
+                        "out": 14760,
+                        "in": 0,
+                        "balance": 77512,
+                        "id": "5dda1c6b7ff22ff9a9b529fd4e94f8641"
+                    },
+                    {
+                        "date": "2021-04-05",
+                        "branch": null,
+                        "description": "FARMACIAS KNOP TEMUCO CL",
+                        "doc_number": null,
+                        "out": 7980,
+                        "in": 0,
+                        "balance": 69532,
+                        "id": "8eeb458b5ab7a56db3a6adb1af7145be1"
+                    },
+                    {
+                        "date": "2021-04-05",
+                        "branch": null,
+                        "description": "BANCO DEL ESTADO TEMUCO 076",
+                        "doc_number": null,
+                        "out": 40000,
+                        "in": 0,
+                        "balance": 29532,
+                        "id": "2c63f7806d84d3e2bc2889dddc547aaf2"
+                    },
+                    {
+                        "date": "2021-04-06",
+                        "branch": null,
+                        "description": "Transf. de THANIA ACEITON PEDR",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 24885,
+                        "balance": 54417,
+                        "id": "30df480dd945655e26deccedf1e3ed9e1"
+                    },
+                    {
+                        "date": "2021-04-06",
+                        "branch": null,
+                        "description": "Transf. de SELMA ACEITON PEDRE",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 60000,
+                        "balance": 114417,
+                        "id": "f865fae2f599eacae4dfba2745ed306f1"
+                    },
+                    {
+                        "date": "2021-05-03",
+                        "branch": null,
+                        "description": "Transf. de THANIA ACEITON PEDR",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 15540,
+                        "balance": 61778,
+                        "id": "08b332783c203160f3468423af3f80201"
+                    },
+                    {
+                        "date": "2021-05-03",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 50000,
+                        "in": 0,
+                        "balance": 11778,
+                        "id": "6b328a684aa131ced676e976fd6b8a301"
+                    },
+                    {
+                        "date": "2021-05-03",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 20000,
+                        "in": 0,
+                        "balance": 0,
+                        "id": "1189592746aab432912227f3c5373c021"
+                    },
+                    {
+                        "date": "2021-05-03",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 30000,
+                        "balance": 21778,
+                        "id": "70176d77923e5669727a6cc2f91bbefb1"
+                    },
+                    {
+                        "date": "2021-05-03",
+                        "branch": null,
+                        "description": "Transf. para Selma Tenpo",
+                        "doc_number": null,
+                        "out": 20000,
+                        "in": 0,
+                        "balance": 1778,
+                        "id": "1189592746aab432912227f3c5373c022"
+                    },
+                    {
+                        "date": "2021-05-03",
+                        "branch": null,
+                        "description": "Transf. para Selma Tenpo",
+                        "doc_number": null,
+                        "out": 12000,
+                        "in": 0,
+                        "balance": 0,
+                        "id": "99250570ce471171b437525bafa977c71"
+                    },
+                    {
+                        "date": "2021-05-03",
+                        "branch": null,
+                        "description": "Transf. de SELMA LIOSKA ACEITO",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 30000,
+                        "balance": 19778,
+                        "id": "70176d77923e5669727a6cc2f91bbefb2"
+                    },
+                    {
+                        "date": "2021-05-03",
+                        "branch": null,
+                        "description": "Transf. para Shirley Liberona",
+                        "doc_number": null,
+                        "out": 11500,
+                        "in": 0,
+                        "balance": 8278,
+                        "id": "5ddc96cd5e4c7d250cbd3e33a8fc741c1"
+                    },
+                    {
+                        "date": "2021-05-06",
+                        "branch": null,
+                        "description": "Transf. para Papa",
+                        "doc_number": null,
+                        "out": 10000,
+                        "in": 0,
+                        "balance": 0,
+                        "id": "69a8949ec96928596809c52fc3ebc5811"
+                    },
+                    {
+                        "date": "2021-05-06",
+                        "branch": null,
+                        "description": "TRASPASO PARA CUBRIR SOBREGIRO",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 1722,
+                        "balance": 0,
+                        "id": "442d2608e0012b1916f5545be7d15c491"
+                    },
+                    {
+                        "date": "2021-05-07",
+                        "branch": null,
+                        "description": "Transf. de ACEITON PEDRERO SEL",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 44700,
+                        "balance": 44700,
+                        "id": "50f7bf24f7e1bbde8c793235d9bba4571"
+                    },
+                    {
+                        "date": "2021-05-07",
+                        "branch": null,
+                        "description": "Transf. de SELMA LIOSKA ACEITO",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 350000,
+                        "balance": 394700,
+                        "id": "883851ce84f9546f6615ff8074c820451"
+                    },
+                    {
+                        "date": "2021-05-07",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 200000,
+                        "in": 0,
+                        "balance": 194700,
+                        "id": "fb39e9224abbb7d511358cc4e9a205971"
+                    },
+                    {
+                        "date": "2021-05-07",
+                        "branch": null,
+                        "description": "TRICARD SA SANTIAGO CL",
+                        "doc_number": null,
+                        "out": 48000,
+                        "in": 0,
+                        "balance": 146700,
+                        "id": "fe57d51c4c5e3d949b7c898125873dde1"
+                    },
+                    {
+                        "date": "2021-05-07",
+                        "branch": null,
+                        "description": "ENEL INTERNET SANTIAGO CL",
+                        "doc_number": null,
+                        "out": 17583,
+                        "in": 0,
+                        "balance": 129117,
+                        "id": "74d9c861e7ff6b1ffbd14b2dd4d2caa81"
+                    },
+                    {
+                        "date": "2021-05-07",
+                        "branch": null,
+                        "description": "ENEL INTERNET SANTIAGO CL",
+                        "doc_number": null,
+                        "out": 24032,
+                        "in": 0,
+                        "balance": 105085,
+                        "id": "a21e65c407cb6ce35672a8ae0ebb85191"
+                    },
+                    {
+                        "date": "2021-05-07",
+                        "branch": null,
+                        "description": "AGUAS ANDINAS SANTIAGO CL",
+                        "doc_number": null,
+                        "out": 7100,
+                        "in": 0,
+                        "balance": 97985,
+                        "id": "f4a4b45989a8f94fe36e05668129eda41"
+                    },
+                    {
+                        "date": "2021-05-07",
+                        "branch": null,
+                        "description": "Transf. para Unired",
+                        "doc_number": null,
+                        "out": 19483,
+                        "in": 0,
+                        "balance": 78502,
+                        "id": "699ef66cd112569b5361a2027543f1051"
+                    },
+                    {
+                        "date": "2021-05-07",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 70000,
+                        "balance": 148502,
+                        "id": "a38056d1b8345c4da20ae25ab03505241"
+                    },
+                    {
+                        "date": "2021-05-10",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 52000,
+                        "balance": 200502,
+                        "id": "351eb6f064cd2cafa737fe26483977321"
+                    },
+                    {
+                        "date": "2021-06-01",
+                        "branch": null,
+                        "description": "IMPUESTO DL 3475",
+                        "doc_number": null,
+                        "out": 1,
+                        "in": 0,
+                        "balance": 213267,
+                        "id": "887fe584a097637e891537f41159f1911"
+                    },
+                    {
+                        "date": "2021-06-01",
+                        "branch": null,
+                        "description": "CARGO INTERES LC CTA CTE",
+                        "doc_number": null,
+                        "out": 6,
+                        "in": 0,
+                        "balance": 213261,
+                        "id": "b378d2142a6655b0c50b0fed22eddec51"
+                    },
+                    {
+                        "date": "2021-06-02",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 150000,
+                        "in": 0,
+                        "balance": 63261,
+                        "id": "ca94ca1a896e9d51268c503f8a9bbbba1"
+                    },
+                    {
+                        "date": "2021-06-02",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 30000,
+                        "balance": 93261,
+                        "id": "cb61a9da6d50209a351d6759c5c5e24e1"
+                    },
+                    {
+                        "date": "2021-06-02",
+                        "branch": null,
+                        "description": "Transf. para Thania Aceiton",
+                        "doc_number": null,
+                        "out": 30000,
+                        "in": 0,
+                        "balance": 63261,
+                        "id": "49c62051e7d6ee5d37e7054c6e4efd4f1"
+                    },
+                    {
+                        "date": "2021-06-02",
+                        "branch": null,
+                        "description": "TRICARD SA SANTIAGO CL",
+                        "doc_number": null,
+                        "out": 47000,
+                        "in": 0,
+                        "balance": 16261,
+                        "id": "54544a734b759f28cc3615daa81de3ea1"
+                    },
+                    {
+                        "date": "2021-06-02",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 155000,
+                        "balance": 171261,
+                        "id": "268b39a441d710bf1ad89b294b482d651"
+                    },
+                    {
+                        "date": "2021-06-02",
+                        "branch": null,
+                        "description": "PAGO TESORERIA GRAL REPUBLICA",
+                        "doc_number": null,
+                        "out": 154038,
+                        "in": 0,
+                        "balance": 17223,
+                        "id": "cf4489e28b744f5dc7e5da676269bdf31"
+                    },
+                    {
+                        "date": "2021-06-02",
+                        "branch": null,
+                        "description": "Transf. para Selma Tenpo",
+                        "doc_number": null,
+                        "out": 5000,
+                        "in": 0,
+                        "balance": 12223,
+                        "id": "a2a034a71a892e22fcdda338b6ba95da1"
+                    },
+                    {
+                        "date": "2021-06-04",
+                        "branch": null,
+                        "description": "Transf. de THANIA ACEITON PEDR",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 15000,
+                        "balance": 27223,
+                        "id": "6292360f357b888aa059b6c3d289e9fa1"
+                    },
+                    {
+                        "date": "2021-06-04",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 20000,
+                        "balance": 47223,
+                        "id": "5aea6104654ec9e75dc286a36efe7a681"
+                    },
+                    {
+                        "date": "2021-06-07",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 100000,
+                        "balance": 147223,
+                        "id": "249241fc0d247fb1e025ecb8596e9ce61"
+                    },
+                    {
+                        "date": "2021-06-07",
+                        "branch": null,
+                        "description": "Transf. de THANIA ACEITON PEDR",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 15000,
+                        "balance": 162223,
+                        "id": "ca0291ef65c7ec1ab9977184a01a0b3d1"
+                    },
+                    {
+                        "date": "2021-06-07",
+                        "branch": null,
+                        "description": "Transf. para Selma Tenpo",
+                        "doc_number": null,
+                        "out": 20000,
+                        "in": 0,
+                        "balance": 142223,
+                        "id": "ea0599a323a47fcbfccc9579fe64af521"
+                    },
+                    {
+                        "date": "2021-06-08",
+                        "branch": null,
+                        "description": "Transf. para Jimena Tapia",
+                        "doc_number": null,
+                        "out": 15000,
+                        "in": 0,
+                        "balance": 127223,
+                        "id": "b6c38290d353ecff9b85c2df7845454b1"
+                    },
+                    {
+                        "date": "2021-06-08",
+                        "branch": null,
+                        "description": "Transf. para Kendra Pavez Rein",
+                        "doc_number": null,
+                        "out": 6000,
+                        "in": 0,
+                        "balance": 121223,
+                        "id": "e09df2ee9dc7ce93f3819e3888bddce71"
+                    },
+                    {
+                        "date": "2021-06-08",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 21000,
+                        "balance": 142223,
+                        "id": "9cd079d74428e5796d2696a8010744761"
+                    },
+                    {
+                        "date": "2021-06-08",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 50000,
+                        "in": 0,
+                        "balance": 92223,
+                        "id": "b7b8084be2064c35d3c392ed0350964c1"
+                    },
+                    {
+                        "date": "2021-06-09",
+                        "branch": null,
+                        "description": "Transf. para Sebastian Olivo",
+                        "doc_number": null,
+                        "out": 37470,
+                        "in": 0,
+                        "balance": 54753,
+                        "id": "b61b6a0ac54078b45aae05f305bdc2e91"
+                    },
+                    {
+                        "date": "2021-06-10",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 30000,
+                        "balance": 84753,
+                        "id": "3efb809b1cba23da7b9c66d24867d7b41"
+                    },
+                    {
+                        "date": "2021-07-01",
+                        "branch": null,
+                        "description": "NOTARIA ESMIRNA VIDAL TEMUCO CL",
+                        "doc_number": null,
+                        "out": 15000,
+                        "in": 0,
+                        "balance": 104469,
+                        "id": "8a10b689a57c9ee3e2c0c6eee853be791"
+                    },
+                    {
+                        "date": "2021-07-01",
+                        "branch": null,
+                        "description": "FARMACIAS DEL DR SIMI TEMUCO CL",
+                        "doc_number": null,
+                        "out": 2880,
+                        "in": 0,
+                        "balance": 101589,
+                        "id": "f9a0b313fb32adc69e79cd019014a78e1"
+                    },
+                    {
+                        "date": "2021-07-01",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 50000,
+                        "balance": 151589,
+                        "id": "80cea373f398917c9d011ea7f407a4541"
+                    },
+                    {
+                        "date": "2021-07-01",
+                        "branch": null,
+                        "description": "Transf. para Thania Aceiton",
+                        "doc_number": null,
+                        "out": 30000,
+                        "in": 0,
+                        "balance": 121589,
+                        "id": "f864d4abefd471b366598da9ff1828c51"
+                    },
+                    {
+                        "date": "2021-07-01",
+                        "branch": null,
+                        "description": "IMPUESTO DL 3475",
+                        "doc_number": null,
+                        "out": 2,
+                        "in": 0,
+                        "balance": 121587,
+                        "id": "d15678294493ce4998cd1de64a592d4f1"
+                    },
+                    {
+                        "date": "2021-07-01",
+                        "branch": null,
+                        "description": "CARGO INTERES LC CTA CTE",
+                        "doc_number": null,
+                        "out": 7,
+                        "in": 0,
+                        "balance": 121580,
+                        "id": "6286ecc0c6d4c86e80f1020c728a44491"
+                    },
+                    {
+                        "date": "2021-07-05",
+                        "branch": null,
+                        "description": "Transf. de SELMA ACEITON PEDRE",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 34700,
+                        "balance": 156280,
+                        "id": "c1a1e71051a63de75a16f38e169b58661"
+                    },
+                    {
+                        "date": "2021-07-05",
+                        "branch": null,
+                        "description": "Transf. para Selma Tenpo",
+                        "doc_number": null,
+                        "out": 10000,
+                        "in": 0,
+                        "balance": 146280,
+                        "id": "701caf750b2c81479cc68b9daed424d11"
+                    },
+                    {
+                        "date": "2021-07-05",
+                        "branch": null,
+                        "description": "Transf. para Selma Tenpo",
+                        "doc_number": null,
+                        "out": 10000,
+                        "in": 0,
+                        "balance": 136280,
+                        "id": "701caf750b2c81479cc68b9daed424d12"
+                    },
+                    {
+                        "date": "2021-07-05",
+                        "branch": null,
+                        "description": "Transf. para Selma Tenpo",
+                        "doc_number": null,
+                        "out": 3000,
+                        "in": 0,
+                        "balance": 133280,
+                        "id": "0f7960deff28f396a19fed504e8619a31"
+                    },
+                    {
+                        "date": "2021-07-06",
+                        "branch": null,
+                        "description": "PAGO TESORERIA GRAL REPUBLICA",
+                        "doc_number": null,
+                        "out": 1090,
+                        "in": 0,
+                        "balance": 132190,
+                        "id": "10aa9d59eab6f485fc55937a1ef54ce81"
+                    },
+                    {
+                        "date": "2021-07-07",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 22000,
+                        "balance": 154190,
+                        "id": "2bec714c0b3657bacf74aed8d7c7dcc91"
+                    },
+                    {
+                        "date": "2021-07-07",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 50000,
+                        "in": 0,
+                        "balance": 104190,
+                        "id": "38dcb452b0ea4d2ddf3e7016068eb5131"
+                    },
+                    {
+                        "date": "2021-07-07",
+                        "branch": null,
+                        "description": "Transf. para Mio",
+                        "doc_number": null,
+                        "out": 154190,
+                        "in": 0,
+                        "balance": 0,
+                        "id": "70a93d2347c72cfd722f68dceec5afc01"
+                    },
+                    {
+                        "date": "2021-07-07",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 20000,
+                        "balance": 0,
+                        "id": "44c5624ded30a7fd7ebcb971675943c31"
+                    },
+                    {
+                        "date": "2021-07-07",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 30000,
+                        "balance": 0,
+                        "id": "83c4005547ee4702cdc63c7c91e4a5ec1"
+                    },
+                    {
+                        "date": "2021-07-07",
+                        "branch": null,
+                        "description": "Transf. de SELMA LIOSKA ACEITO",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 4584,
+                        "balance": 4584,
+                        "id": "fda7811fdc9c3ba8ace26af559c558731"
+                    },
+                    {
+                        "date": "2021-07-07",
+                        "branch": null,
+                        "description": "Transf. de SELMA LIOSKA ACEITO",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 50000,
+                        "balance": 54584,
+                        "id": "7d5f5b2ee0811e6e8bb00f2890a5db051"
+                    },
+                    {
+                        "date": "2021-07-07",
+                        "branch": null,
+                        "description": "FALABELLA TEMUCO TEMUCO CL",
+                        "doc_number": null,
+                        "out": 27990,
+                        "in": 0,
+                        "balance": 26594,
+                        "id": "a4a7048e7248ee00df06482a54dd0d271"
+                    },
+                    {
+                        "date": "2021-07-07",
+                        "branch": null,
+                        "description": "REGALOPOLIS TEMUCO CL",
+                        "doc_number": null,
+                        "out": 5460,
+                        "in": 0,
+                        "balance": 21134,
+                        "id": "855835cf98a3027e7cc9e2fc0ea4342b1"
+                    },
+                    {
+                        "date": "2021-08-02",
+                        "branch": null,
+                        "description": "IMPUESTO DL 3475",
+                        "doc_number": null,
+                        "out": 32,
+                        "in": 0,
+                        "balance": 6834,
+                        "id": "87fc8d15d80b9e4da3c6e317b4ee7b1e1"
+                    },
+                    {
+                        "date": "2021-08-02",
+                        "branch": null,
+                        "description": "CARGO INTERES LC CTA CTE",
+                        "doc_number": null,
+                        "out": 1137,
+                        "in": 0,
+                        "balance": 5697,
+                        "id": "246fd977363549bb1429d9129e4a91881"
+                    },
+                    {
+                        "date": "2021-08-09",
+                        "branch": null,
+                        "description": "Transf. de THANIA ACEITON PEDR",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 18681,
+                        "balance": 24378,
+                        "id": "8227f6792af034d83ca631c132322ab91"
+                    },
+                    {
+                        "date": "2021-08-09",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 50000,
+                        "balance": 74378,
+                        "id": "bfaf6bd52ad86711ec204551dd7e408c1"
+                    },
+                    {
+                        "date": "2021-08-09",
+                        "branch": null,
+                        "description": "Transf. para Mio cta Rut",
+                        "doc_number": null,
+                        "out": 30000,
+                        "in": 0,
+                        "balance": 44378,
+                        "id": "cabc9d9b82d8c52fb4243f000ecbf77a1"
+                    },
+                    {
+                        "date": "2021-08-09",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 45512,
+                        "in": 0,
+                        "balance": 0,
+                        "id": "8f7d5a2f8f4624a1620d69b75a10ceb11"
+                    },
+                    {
+                        "date": "2021-08-09",
+                        "branch": null,
+                        "description": "TRASPASO PARA CUBRIR SOBREGIRO",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 1134,
+                        "balance": 0,
+                        "id": "36c02ff7f161c467126ee525a93fe80c1"
+                    },
+                    {
+                        "date": "2021-08-12",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 37000,
+                        "balance": 37000,
+                        "id": "ec648618a25f7a6ceb718ec05eb8f2121"
+                    },
+                    {
+                        "date": "2021-08-12",
+                        "branch": null,
+                        "description": "Transf. para Mio",
+                        "doc_number": null,
+                        "out": 37000,
+                        "in": 0,
+                        "balance": 0,
+                        "id": "b6a243f2212406ffce1c4515e715f9961"
+                    },
+                    {
+                        "date": "2021-08-18",
+                        "branch": null,
+                        "description": "Transf. de ACEITON PEDRERO SEL",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 29700,
+                        "balance": 29700,
+                        "id": "b77bcd5786617c5360a768e9a16451eb1"
+                    },
+                    {
+                        "date": "2021-08-18",
+                        "branch": null,
+                        "description": "Transf. para Mio",
+                        "doc_number": null,
+                        "out": 29700,
+                        "in": 0,
+                        "balance": 0,
+                        "id": "36f728bbf9322b6c16c14e2abbeb3e9e1"
+                    },
+                    {
+                        "date": "2021-08-19",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 317605,
+                        "balance": 317605,
+                        "id": "a6c0bf936f45d637a70dbd7c140877f41"
+                    },
+                    {
+                        "date": "2021-08-19",
+                        "branch": null,
+                        "description": "Transf. para Mio",
+                        "doc_number": null,
+                        "out": 250000,
+                        "in": 0,
+                        "balance": 67605,
+                        "id": "42ddb4ef332434ab75de2bff409f48531"
+                    },
+                    {
+                        "date": "2021-08-19",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 50000,
+                        "in": 0,
+                        "balance": 17605,
+                        "id": "4e9129f0e91cf5f68581515314dc65ca1"
+                    },
+                    {
+                        "date": "2021-08-20",
+                        "branch": null,
+                        "description": "Transf. para Mio cta Rut",
+                        "doc_number": null,
+                        "out": 15000,
+                        "in": 0,
+                        "balance": 2605,
+                        "id": "c1aa8adbbf5ac6ad457f951eb15850001"
+                    },
+                    {
+                        "date": "2021-08-23",
+                        "branch": null,
+                        "description": "Transf. para Selma Tenpo",
+                        "doc_number": null,
+                        "out": 1000,
+                        "in": 0,
+                        "balance": 1605,
+                        "id": "a21828c9d8d21c102415bec2ec6c01e11"
+                    },
+                    {
+                        "date": "2021-09-01",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 61000,
+                        "balance": 62605,
+                        "id": "28b20e2d242ac6c179b5eb8ab86a68ed1"
+                    },
+                    {
+                        "date": "2021-09-01",
+                        "branch": null,
+                        "description": "Transf. para Neison Aceiton",
+                        "doc_number": null,
+                        "out": 60665,
+                        "in": 0,
+                        "balance": 1940,
+                        "id": "b44b278b69ef27a760ff7f773fea7b221"
+                    },
+                    {
+                        "date": "2021-09-01",
+                        "branch": null,
+                        "description": "Transf. de SELMA LIOSKA ACEITO",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 40000,
+                        "balance": 41940,
+                        "id": "25e3af036db6dd7bbbc23d31e85248ad1"
+                    },
+                    {
+                        "date": "2021-09-01",
+                        "branch": null,
+                        "description": "Transf. para Thania Aceiton",
+                        "doc_number": null,
+                        "out": 30000,
+                        "in": 0,
+                        "balance": 11940,
+                        "id": "69b289ec486b3b1a3b9cc041521f8c671"
+                    },
+                    {
+                        "date": "2021-09-01",
+                        "branch": null,
+                        "description": "Transf. de SELMA ACEITON PEDRE",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 50000,
+                        "balance": 61940,
+                        "id": "5d0794f10c97dbefbf20b40186767ad31"
+                    },
+                    {
+                        "date": "2021-09-01",
+                        "branch": null,
+                        "description": "IMPUESTO DL 3475",
+                        "doc_number": null,
+                        "out": 33,
+                        "in": 0,
+                        "balance": 61907,
+                        "id": "a9d814bf564e1a597dee75fbeb700ec01"
+                    },
+                    {
+                        "date": "2021-09-01",
+                        "branch": null,
+                        "description": "CARGO INTERES LC CTA CTE",
+                        "doc_number": null,
+                        "out": 1446,
+                        "in": 0,
+                        "balance": 60461,
+                        "id": "a7cd9db9c09e00b1d2ca4418bc5d4d9a1"
+                    },
+                    {
+                        "date": "2021-09-02",
+                        "branch": null,
+                        "description": "Transf. para Thania Aceiton",
+                        "doc_number": null,
+                        "out": 20660,
+                        "in": 0,
+                        "balance": 39801,
+                        "id": "9b4fdf7d5e02c2ebefd4f944f9c1e3091"
+                    },
+                    {
+                        "date": "2021-09-02",
+                        "branch": null,
+                        "description": "Transf. de SELMA LIOSKA ACEITO",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 192000,
+                        "balance": 231801,
+                        "id": "4d3106ffe937337a4a216d2789f8b4251"
+                    },
+                    {
+                        "date": "2021-09-02",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 33000,
+                        "in": 0,
+                        "balance": 198801,
+                        "id": "b12f1f456a7e901fa6a38d53a1ea355f1"
+                    },
+                    {
+                        "date": "2021-09-02",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 26000,
+                        "balance": 224801,
+                        "id": "eb1189bfcd75d8a719efc6b26ded66491"
+                    },
+                    {
+                        "date": "2021-09-02",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 26000,
+                        "in": 0,
+                        "balance": 198801,
+                        "id": "92f0223294b5dcf4af50e36a664880a21"
+                    },
+                    {
+                        "date": "2021-09-03",
+                        "branch": null,
+                        "description": "LA CABANA LAUTARO CL",
+                        "doc_number": null,
+                        "out": 17260,
+                        "in": 0,
+                        "balance": 181541,
+                        "id": "f7a5755d36b416c5a93dd0d0067e4fd91"
+                    },
+                    {
+                        "date": "2021-09-06",
+                        "branch": null,
+                        "description": "COMERCIAL JIAYING LIMITADCAUTIN CL",
+                        "doc_number": null,
+                        "out": 4590,
+                        "in": 0,
+                        "balance": 176951,
+                        "id": "228cb70f8fb3879e5fe5c0952ed5bcf61"
+                    },
+                    {
+                        "date": "2021-09-06",
+                        "branch": null,
+                        "description": "FAMILY SHOP / TEMUCO 3 SANTIAGO CL",
+                        "doc_number": null,
+                        "out": 23970,
+                        "in": 0,
+                        "balance": 152981,
+                        "id": "805139823d3cf8173c16d5333ef254731"
+                    },
+                    {
+                        "date": "2021-09-06",
+                        "branch": null,
+                        "description": "FASHIONS PARK TEMUCO TEMUCO CL",
+                        "doc_number": null,
+                        "out": 5990,
+                        "in": 0,
+                        "balance": 146991,
+                        "id": "7af87356497ca516b62035db453c2ee21"
+                    },
+                    {
+                        "date": "2021-09-06",
+                        "branch": null,
+                        "description": "STA ISABEL TEMUCO BULN TEMUCO CL",
+                        "doc_number": null,
+                        "out": 15678,
+                        "in": 0,
+                        "balance": 131313,
+                        "id": "9cff86a655efad27145dd09872caefe71"
+                    },
+                    {
+                        "date": "2021-09-06",
+                        "branch": null,
+                        "description": "GIRO CAJERO AUTOM. REDBANC",
+                        "doc_number": null,
+                        "out": 30000,
+                        "in": 0,
+                        "balance": 101313,
+                        "id": "873440c058587ee44a77df58383d3d691"
+                    },
+                    {
+                        "date": "2021-09-06",
+                        "branch": null,
+                        "description": "OMAS BROT AA INTEGRADO TEMUCO CL",
+                        "doc_number": null,
+                        "out": 19540,
+                        "in": 0,
+                        "balance": 81773,
+                        "id": "b791673553930d4322ae6c89080381ac1"
+                    },
+                    {
+                        "date": "2021-09-06",
+                        "branch": null,
+                        "description": "Transf. de SELMA LIOSKA ACEITO",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 436000,
+                        "balance": 517773,
+                        "id": "c0f69af539ada660fde0288b0379bc4c1"
+                    },
+                    {
+                        "date": "2021-10-01",
+                        "branch": null,
+                        "description": "Transf. de SELMA LIOSKA ACEITO",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 27780,
+                        "balance": 27780,
+                        "id": "e2fb97b02069a08aad4ef88214addfba1"
+                    },
+                    {
+                        "date": "2021-10-01",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 30000,
+                        "balance": 57780,
+                        "id": "634ee848af05e3a0f9aca58b8fc061a61"
+                    },
+                    {
+                        "date": "2021-10-01",
+                        "branch": null,
+                        "description": "Transf. de SELMA ACEITON PEDRE",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 40000,
+                        "balance": 97780,
+                        "id": "62e58304cb979cdc659148d1a4304a9b1"
+                    },
+                    {
+                        "date": "2021-10-01",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 30000,
+                        "in": 0,
+                        "balance": 67780,
+                        "id": "dfc44a71e7af5efdcbbc7b47197081771"
+                    },
+                    {
+                        "date": "2021-10-01",
+                        "branch": null,
+                        "description": "IMPUESTO DL 3475",
+                        "doc_number": null,
+                        "out": 33,
+                        "in": 0,
+                        "balance": 67747,
+                        "id": "50fc0f8f56ee3c55369c062313e1ea351"
+                    },
+                    {
+                        "date": "2021-10-01",
+                        "branch": null,
+                        "description": "CARGO INTERES LC CTA CTE",
+                        "doc_number": null,
+                        "out": 1415,
+                        "in": 0,
+                        "balance": 66332,
+                        "id": "41eec0e8dcdc0a25aafaa56134977cdf1"
+                    },
+                    {
+                        "date": "2021-10-04",
+                        "branch": null,
+                        "description": "EXPRESS TEMUCO CAUPOL TEMUCO CL",
+                        "doc_number": null,
+                        "out": 49470,
+                        "in": 0,
+                        "balance": 16862,
+                        "id": "343d5c729b9b8868ae28f225c1e0ce121"
+                    },
+                    {
+                        "date": "2021-10-04",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 16,
+                        "in": 0,
+                        "balance": 16846,
+                        "id": "48819b991f18c16e78e09b2cce1a39d61"
+                    },
+                    {
+                        "date": "2021-10-04",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 16846,
+                        "in": 0,
+                        "balance": 0,
+                        "id": "a35aece56acc1595fe2becfe8ecd37ca1"
+                    },
+                    {
+                        "date": "2021-10-04",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 53000,
+                        "balance": 53000,
+                        "id": "392c1a8ab303048dd9c2902e29e07a171"
+                    },
+                    {
+                        "date": "2021-10-04",
+                        "branch": null,
+                        "description": "RAPPI CHILE 4 LAS CONDES CL",
+                        "doc_number": null,
+                        "out": 52040,
+                        "in": 0,
+                        "balance": 960,
+                        "id": "9f648cbd63d4e69bd0fe424e20e24d591"
+                    },
+                    {
+                        "date": "2021-10-04",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 20000,
+                        "balance": 20960,
+                        "id": "112db8b0fee0a79bf0715511a4acac371"
+                    },
+                    {
+                        "date": "2021-10-04",
+                        "branch": null,
+                        "description": "RAPPI CHILE 4 LAS CONDES CL",
+                        "doc_number": null,
+                        "out": 3560,
+                        "in": 0,
+                        "balance": 17400,
+                        "id": "0eec39a0e3041a40dd75fb426a471b631"
+                    },
+                    {
+                        "date": "2021-10-04",
+                        "branch": null,
+                        "description": "RAPPI CHILE 4 LAS CONDES CL",
+                        "doc_number": null,
+                        "out": 1980,
+                        "in": 0,
+                        "balance": 15420,
+                        "id": "7fa2a7074165c88163eba312465f074d1"
+                    },
+                    {
+                        "date": "2021-10-04",
+                        "branch": null,
+                        "description": "RAPPI CHILE 4 LAS CONDES CL",
+                        "doc_number": null,
+                        "out": 4690,
+                        "in": 0,
+                        "balance": 10730,
+                        "id": "0b60145fdde257ccff6b63c758716d961"
+                    },
+                    {
+                        "date": "2021-10-05",
+                        "branch": null,
+                        "description": "RAPPI CHILE 4 04/10/2021",
+                        "doc_number": null,
+                        "out": 34500,
+                        "in": 0,
+                        "balance": 0,
+                        "id": "bf45aac218273ac585367286ac8e7de91"
+                    },
+                    {
+                        "date": "2021-10-05",
+                        "branch": null,
+                        "description": "Rev. Compra VISA mal Aplicada 04/10/2021",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 52040,
+                        "balance": 28270,
+                        "id": "9cae53c47660c941c6f44ef109bd64581"
+                    },
+                    {
+                        "date": "2021-10-06",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 100000,
+                        "balance": 128270,
+                        "id": "328f81c1838a01a673126d90f2c2ab731"
+                    },
+                    {
+                        "date": "2021-10-06",
+                        "branch": null,
+                        "description": "AUTOPISTA CENTRAL SANTIAGO CL",
+                        "doc_number": null,
+                        "out": 32169,
+                        "in": 0,
+                        "balance": 96101,
+                        "id": "2e429a22c660ef29b8dc5dda572ad66c1"
+                    },
+                    {
+                        "date": "2021-10-06",
+                        "branch": null,
+                        "description": "UNIRED CL VESPUCIO SUR SANTIAGO CL",
+                        "doc_number": null,
+                        "out": 30195,
+                        "in": 0,
+                        "balance": 65906,
+                        "id": "980f7e808b6fb7dcd6adbce73ad022bc1"
+                    },
+                    {
+                        "date": "2021-11-02",
+                        "branch": null,
+                        "description": "Transf. de SELMA LIOSKA ACEITO",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 30000,
+                        "balance": 30599,
+                        "id": "456c497cc9d1de2d8bcb5ed2a61c937d1"
+                    },
+                    {
+                        "date": "2021-11-02",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 30000,
+                        "in": 0,
+                        "balance": 599,
+                        "id": "0e433b8506863938d638a8e478dc3a851"
+                    },
+                    {
+                        "date": "2021-11-02",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 60000,
+                        "balance": 60599,
+                        "id": "bdeb1a95a2628cf97dad2ea18a3c0c2a1"
+                    },
+                    {
+                        "date": "2021-11-02",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 60000,
+                        "in": 0,
+                        "balance": 599,
+                        "id": "896090cabf6e37691e40c8b6037168e71"
+                    },
+                    {
+                        "date": "2021-11-02",
+                        "branch": null,
+                        "description": "IMPUESTO DL 3475",
+                        "doc_number": null,
+                        "out": 33,
+                        "in": 0,
+                        "balance": 566,
+                        "id": "84bc208bf43b7c04307430bc748a35c21"
+                    },
+                    {
+                        "date": "2021-11-02",
+                        "branch": null,
+                        "description": "CARGO INTERES LC CTA CTE",
+                        "doc_number": null,
+                        "out": 1485,
+                        "in": 0,
+                        "balance": 0,
+                        "id": "612682ce8f62e128a4fa45397308460d1"
+                    },
+                    {
+                        "date": "2021-11-03",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 100000,
+                        "balance": 99081,
+                        "id": "3e2ef030b9ca0a026780d0a9a65936781"
+                    },
+                    {
+                        "date": "2021-11-03",
+                        "branch": null,
+                        "description": "GIRO CAJERO AUTOM. REDBANC",
+                        "doc_number": null,
+                        "out": 30000,
+                        "in": 0,
+                        "balance": 69081,
+                        "id": "7c2a2de33390831af20e14555c3df3b61"
+                    },
+                    {
+                        "date": "2021-11-03",
+                        "branch": null,
+                        "description": "FARM DEL DR SIMI LA CI SANTIAGO CL",
+                        "doc_number": null,
+                        "out": 9000,
+                        "in": 0,
+                        "balance": 60081,
+                        "id": "462b6e6ec136f58755c6a4381459202b1"
+                    },
+                    {
+                        "date": "2021-11-03",
+                        "branch": null,
+                        "description": "SALCOBRAND GRAN AVENI SANTIAGO CL",
+                        "doc_number": null,
+                        "out": 15369,
+                        "in": 0,
+                        "balance": 44712,
+                        "id": "482162066c2947ab83511a7b6377116b1"
+                    },
+                    {
+                        "date": "2021-11-03",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 46000,
+                        "in": 0,
+                        "balance": 0,
+                        "id": "8b799da0b3afd6926157bfc9a60ab39a1"
+                    },
+                    {
+                        "date": "2021-11-03",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 34000,
+                        "balance": 32712,
+                        "id": "edb4e0d6a78ea2f712aa7418211415521"
+                    },
+                    {
+                        "date": "2021-11-03",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 34000,
+                        "in": 0,
+                        "balance": 0,
+                        "id": "352f3ffa4e340d2c4f205220d98ffc871"
+                    },
+                    {
+                        "date": "2021-11-05",
+                        "branch": null,
+                        "description": "Transf. de SELMA LIOSKA ACEITO",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 500000,
+                        "balance": 498712,
+                        "id": "358f154073b03091bc38efd5470def8e1"
+                    },
+                    {
+                        "date": "2021-11-05",
+                        "branch": null,
+                        "description": "PAGO DE LINEA DE CREDITO",
+                        "doc_number": null,
+                        "out": 50000,
+                        "in": 0,
+                        "balance": 448712,
+                        "id": "4e464418e396271738e96500a65c644d1"
+                    },
+                    {
+                        "date": "2021-11-05",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 300000,
+                        "in": 0,
+                        "balance": 148712,
+                        "id": "e23cf6bb221c8663b92bf2e17ef431181"
+                    },
+                    {
+                        "date": "2021-11-05",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 73326,
+                        "in": 0,
+                        "balance": 75386,
+                        "id": "df6e5f7fc09cae29a81c7b5d598fe4c01"
+                    },
+                    {
+                        "date": "2021-11-05",
+                        "branch": null,
+                        "description": "Transf. de SELMA LIOSKA ACEITO",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 600000,
+                        "balance": 675386,
+                        "id": "c9c877f8a85192940446573d8bdaff4a1"
+                    },
+                    {
+                        "date": "2021-11-05",
+                        "branch": null,
+                        "description": "WWW.SHEIN.COM EASTLEIGH GB",
+                        "doc_number": null,
+                        "out": 153525,
+                        "in": 0,
+                        "balance": 521861,
+                        "id": "0305b6ce3b8d7b771316f169175bd4e51"
+                    },
+                    {
+                        "date": "2021-11-05",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 150000,
+                        "in": 0,
+                        "balance": 371861,
+                        "id": "20a927e18fbf0c7b2da52c2038fae2841"
+                    },
+                    {
+                        "date": "2021-12-01",
+                        "branch": null,
+                        "description": "Transf. para Unired",
+                        "doc_number": null,
+                        "out": 14990,
+                        "in": 0,
+                        "balance": 31052,
+                        "id": "cb6503694cfd9a141fbaf3e8b54f33bd1"
+                    },
+                    {
+                        "date": "2021-12-01",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 30000,
+                        "in": 0,
+                        "balance": 1052,
+                        "id": "78ff4306fac7c74bae257e61386605521"
+                    },
+                    {
+                        "date": "2021-12-01",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 70000,
+                        "balance": 71052,
+                        "id": "03cd572b75531e6a24a3e74339af2d281"
+                    },
+                    {
+                        "date": "2021-12-01",
+                        "branch": null,
+                        "description": "Transf. para Thania Cc Ban",
+                        "doc_number": null,
+                        "out": 30000,
+                        "in": 0,
+                        "balance": 41052,
+                        "id": "78ff4306fac7c74bae257e61386605522"
+                    },
+                    {
+                        "date": "2021-12-01",
+                        "branch": null,
+                        "description": "CARGO INTSOBREGIRO NO PACTADO",
+                        "doc_number": null,
+                        "out": 3,
+                        "in": 0,
+                        "balance": 41049,
+                        "id": "cca3a019dd1e59c7ab2395d0249710001"
+                    },
+                    {
+                        "date": "2021-12-01",
+                        "branch": null,
+                        "description": "IMPUESTO DL 3475",
+                        "doc_number": null,
+                        "out": 33,
+                        "in": 0,
+                        "balance": 41016,
+                        "id": "d73ac25cd9323721242dbc0a6867fe441"
+                    },
+                    {
+                        "date": "2021-12-01",
+                        "branch": null,
+                        "description": "CARGO INTERES LC CTA CTE",
+                        "doc_number": null,
+                        "out": 194,
+                        "in": 0,
+                        "balance": 40822,
+                        "id": "75f0c77e5003c1200cab556536940d441"
+                    },
+                    {
+                        "date": "2021-12-03",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 30000,
+                        "in": 0,
+                        "balance": 10822,
+                        "id": "805923368a23a1ac5374f479cedc90721"
+                    },
+                    {
+                        "date": "2021-12-03",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 50000,
+                        "balance": 60822,
+                        "id": "9e02d1545efd5573a7b9ae76e4957e011"
+                    },
+                    {
+                        "date": "2021-12-06",
+                        "branch": null,
+                        "description": "WEBPAY",
+                        "doc_number": null,
+                        "out": 5000,
+                        "in": 0,
+                        "balance": 55822,
+                        "id": "58c0044b3bf28249e8625781e1113c191"
+                    },
+                    {
+                        "date": "2021-12-06",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 80000,
+                        "balance": 135822,
+                        "id": "1bc287f630e67170c4e9108d84252efe1"
+                    },
+                    {
+                        "date": "2021-12-06",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 80000,
+                        "in": 0,
+                        "balance": 55822,
+                        "id": "cf95e7b2524f8e515b96380994b300041"
+                    },
+                    {
+                        "date": "2021-12-06",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 30000,
+                        "in": 0,
+                        "balance": 25822,
+                        "id": "da7b2f7b3d2a2c68473cabaa5bd3a6571"
+                    },
+                    {
+                        "date": "2021-12-06",
+                        "branch": null,
+                        "description": "Transf. para Selma Tenpo",
+                        "doc_number": null,
+                        "out": 13000,
+                        "in": 0,
+                        "balance": 12822,
+                        "id": "af86ee73ceac5093912a3282ede0218a1"
+                    },
+                    {
+                        "date": "2021-12-09",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 200000,
+                        "balance": 212822,
+                        "id": "9e4fff080efe8b83a1f1864b859f8a3f1"
+                    },
+                    {
+                        "date": "2021-12-09",
+                        "branch": null,
+                        "description": "Transf. de SELMA LIOSKA ACEITO",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 124668,
+                        "balance": 337490,
+                        "id": "940063c8483db0ae9f1f7754e028137a1"
+                    },
+                    {
+                        "date": "2021-12-09",
+                        "branch": null,
+                        "description": "Transf. para Mio Itau",
+                        "doc_number": null,
+                        "out": 260000,
+                        "in": 0,
+                        "balance": 77490,
+                        "id": "1435096716b8c09fc11ed6f0c119dda61"
+                    },
+                    {
+                        "date": "2021-12-09",
+                        "branch": null,
+                        "description": "Transf. para Neison Aceiton",
+                        "doc_number": null,
+                        "out": 60664,
+                        "in": 0,
+                        "balance": 16826,
+                        "id": "087bcc790b300e93570d7226b81ecd151"
+                    },
+                    {
+                        "date": "2021-12-09",
+                        "branch": null,
+                        "description": "Transf. para Mio Itau",
+                        "doc_number": null,
+                        "out": 1000,
+                        "in": 0,
+                        "balance": 15826,
+                        "id": "cf4eb5184ef9b7a258ff387b554c8c611"
+                    },
+                    {
+                        "date": "2021-12-09",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 65000,
+                        "in": 0,
+                        "balance": 0,
+                        "id": "5f4446f7bb8729b4e8a163cdf13c24a11"
+                    },
+                    {
+                        "date": "2022-01-06",
+                        "branch": null,
+                        "description": "Transf. para Transportestonini",
+                        "doc_number": null,
+                        "out": 120000,
+                        "in": 0,
+                        "balance": 2108,
+                        "id": "5e78ab113c1b17a3a055492f3cb0bcf91"
+                    },
+                    {
+                        "date": "2022-01-06",
+                        "branch": null,
+                        "description": "Transf. de ACEITON PEDRERO SEL",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 120000,
+                        "balance": 122108,
+                        "id": "a612086257d38a1333621c135bf94d531"
+                    },
+                    {
+                        "date": "2022-01-06",
+                        "branch": null,
+                        "description": "Transf. para Thania Cc Ban",
+                        "doc_number": null,
+                        "out": 30000,
+                        "in": 0,
+                        "balance": 2108,
+                        "id": "ae5fe9cd1fa81a0631af59fc59e3878c1"
+                    },
+                    {
+                        "date": "2022-01-06",
+                        "branch": null,
+                        "description": "Transf. para Transportestonini",
+                        "doc_number": null,
+                        "out": 120000,
+                        "in": 0,
+                        "balance": 32108,
+                        "id": "5e78ab113c1b17a3a055492f3cb0bcf92"
+                    },
+                    {
+                        "date": "2022-01-06",
+                        "branch": null,
+                        "description": "Transf. de ACEITON PEDRERO SEL",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 150000,
+                        "balance": 152108,
+                        "id": "33ddf2725281eed9fed9f37690aa3ff51"
+                    },
+                    {
+                        "date": "2022-01-05",
+                        "branch": null,
+                        "description": "Transf. para Thania Cc Ban",
+                        "doc_number": null,
+                        "out": 7900,
+                        "in": 0,
+                        "balance": 2108,
+                        "id": "edbd554ac1530ece94652dbbc74434661"
+                    },
+                    {
+                        "date": "2022-01-05",
+                        "branch": null,
+                        "description": "GAS 777 SANTIAGO CL",
+                        "doc_number": null,
+                        "out": 23300,
+                        "in": 0,
+                        "balance": 10008,
+                        "id": "99e09dc8b2feada5c0fead5b3485db051"
+                    },
+                    {
+                        "date": "2022-01-05",
+                        "branch": null,
+                        "description": "Transf. de SELMA LIOSKA ACEITO",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 4000,
+                        "balance": 33308,
+                        "id": "2b0b61519e961d82f21ef4617b866f641"
+                    },
+                    {
+                        "date": "2022-01-05",
+                        "branch": null,
+                        "description": "Transf. para Alejandro BCI",
+                        "doc_number": null,
+                        "out": 150000,
+                        "in": 0,
+                        "balance": 29308,
+                        "id": "b4302b996ff03b86084b5c4e23dc9c311"
+                    },
+                    {
+                        "date": "2022-01-05",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 150000,
+                        "balance": 179308,
+                        "id": "62c8808ed3c524bb66f4414aa0f5ead41"
+                    },
+                    {
+                        "date": "2022-01-05",
+                        "branch": null,
+                        "description": "SUMUPAriana Perez Matu Santiago CL",
+                        "doc_number": null,
+                        "out": 11290,
+                        "in": 0,
+                        "balance": 29308,
+                        "id": "f3d6b03dfb1d47440e0590ac8e55ba9c1"
+                    },
+                    {
+                        "date": "2022-01-05",
+                        "branch": null,
+                        "description": "SUMUPGladys lagos Santiago CL",
+                        "doc_number": null,
+                        "out": 6000,
+                        "in": 0,
+                        "balance": 40598,
+                        "id": "08660b5acdd9541d47567d4fa63d98e81"
+                    },
+                    {
+                        "date": "2022-01-05",
+                        "branch": null,
+                        "description": "FERRETERIA RAVERA SANTIAGO CL",
+                        "doc_number": null,
+                        "out": 21600,
+                        "in": 0,
+                        "balance": 46598,
+                        "id": "4ef431502ab8070f8bf41a3541bf295d1"
+                    },
+                    {
+                        "date": "2022-01-04",
+                        "branch": null,
+                        "description": "Transf. para Neison Aceiton",
+                        "doc_number": null,
+                        "out": 60664,
+                        "in": 0,
+                        "balance": 68198,
+                        "id": "b1fe66fa2e5d017aad8f3ca8960d80cb1"
+                    },
+                    {
+                        "date": "2022-01-04",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 50000,
+                        "balance": 128862,
+                        "id": "bc7ed01bea1d13a6dc81c985108e4d351"
+                    },
+                    {
+                        "date": "2022-01-04",
+                        "branch": null,
+                        "description": "Transf. de TRANSPORTES TONINI",
+                        "doc_number": null,
+                        "out": 0,
+                        "in": 80000,
+                        "balance": 78862,
+                        "id": "5039c74cddd04d2640fb5d81965f023e1"
+                    },
+                    {
+                        "date": "2022-01-04",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 10000,
+                        "in": 0,
+                        "balance": 0,
+                        "id": "75ff15a85d797672f8b6e92e213fd1601"
+                    },
+                    {
+                        "date": "2022-01-03",
+                        "branch": null,
+                        "description": "CARGO INTERES LC CTA CTE",
+                        "doc_number": null,
+                        "out": 1147,
+                        "in": 0,
+                        "balance": 8862,
+                        "id": "e91a7fe1d3c1f45123cc378567e1f9131"
+                    },
+                    {
+                        "date": "2022-01-03",
+                        "branch": null,
+                        "description": "IMPUESTO DL 3475",
+                        "doc_number": null,
+                        "out": 32,
+                        "in": 0,
+                        "balance": 10009,
+                        "id": "fd8a962ac4b46ebde94093a0c80b5eae1"
+                    },
+                    {
+                        "date": "2022-01-03",
+                        "branch": null,
+                        "description": "Transf. para Pago Tarjeta CMR",
+                        "doc_number": null,
+                        "out": 20000,
+                        "in": 0,
+                        "balance": 10041,
+                        "id": "14a7da7bde4eec8be0140c2af2be07df1"
+                    }
+                ]
+            }
+        ]
+    },
+    "income": {
+        "accounts": [
+            {
+                "account_number": 15040290775,
+                "regularity": "13/12",
+                "totalAverage": 650932,
+                "mainAverage": 259495,
+                "extraAverage": 391437,
+                "mainIncomeDeposit": "Transf. de TRANSPORTES TONINI",
+                "incomeByMonth": [
+                    {
+                        "month": "2022-01",
+                        "total": 554000,
+                        "main": 280000,
+                        "extra": 274000,
+                        "date": "2022-01-04",
+                        "sources": [
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 150000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de ACEITON PEDRERO SEL",
+                                "amount": 150000,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de ACEITON PEDRERO SEL",
+                                "amount": 120000,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 80000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 50000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de SELMA LIOSKA ACEITO",
+                                "amount": 4000,
+                                "type": "extra"
+                            }
+                        ]
+                    },
+                    {
+                        "month": "2021-12",
+                        "total": 524668,
+                        "main": 400000,
+                        "extra": 124668,
+                        "date": "2021-12-03",
+                        "sources": [
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 200000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de SELMA LIOSKA ACEITO",
+                                "amount": 124668,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 80000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 70000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 50000,
+                                "type": "main"
+                            }
+                        ]
+                    },
+                    {
+                        "month": "2021-11",
+                        "total": 1324000,
+                        "main": 194000,
+                        "extra": 1130000,
+                        "date": "2021-11-03",
+                        "sources": [
+                            {
+                                "sender": "Transf. de SELMA LIOSKA ACEITO",
+                                "amount": 600000,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de SELMA LIOSKA ACEITO",
+                                "amount": 500000,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 100000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 60000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 34000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de SELMA LIOSKA ACEITO",
+                                "amount": 30000,
+                                "type": "extra"
+                            }
+                        ]
+                    },
+                    {
+                        "month": "2021-10",
+                        "total": 322820,
+                        "main": 203000,
+                        "extra": 119820,
+                        "date": "2021-10-04",
+                        "sources": [
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 100000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 53000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Rev. Compra VISA mal Aplicada 04/10/2021",
+                                "amount": 52040,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de SELMA ACEITON PEDRE",
+                                "amount": 40000,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 30000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de SELMA LIOSKA ACEITO",
+                                "amount": 27780,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 20000,
+                                "type": "main"
+                            }
+                        ]
+                    },
+                    {
+                        "month": "2021-09",
+                        "total": 805000,
+                        "main": 87000,
+                        "extra": 718000,
+                        "date": "2021-09-02",
+                        "sources": [
+                            {
+                                "sender": "Transf. de SELMA LIOSKA ACEITO",
+                                "amount": 436000,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de SELMA LIOSKA ACEITO",
+                                "amount": 192000,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 61000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de SELMA ACEITON PEDRE",
+                                "amount": 50000,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de SELMA LIOSKA ACEITO",
+                                "amount": 40000,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 26000,
+                                "type": "main"
+                            }
+                        ]
+                    },
+                    {
+                        "month": "2021-08",
+                        "total": 454120,
+                        "main": 404605,
+                        "extra": 49515,
+                        "date": "2021-08-12",
+                        "sources": [
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 317605,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 50000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 37000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de ACEITON PEDRERO SEL",
+                                "amount": 29700,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de THANIA ACEITON PEDR",
+                                "amount": 18681,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "TRASPASO PARA CUBRIR SOBREGIRO",
+                                "amount": 1134,
+                                "type": "extra"
+                            }
+                        ]
+                    },
+                    {
+                        "month": "2021-07",
+                        "total": 211284,
+                        "main": 122000,
+                        "extra": 89284,
+                        "date": "2021-07-07",
+                        "sources": [
+                            {
+                                "sender": "Transf. de SELMA LIOSKA ACEITO",
+                                "amount": 50000,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 50000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de SELMA ACEITON PEDRE",
+                                "amount": 34700,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 30000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 22000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 20000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de SELMA LIOSKA ACEITO",
+                                "amount": 4584,
+                                "type": "extra"
+                            }
+                        ]
+                    },
+                    {
+                        "month": "2021-06",
+                        "total": 386000,
+                        "main": 356000,
+                        "extra": 30000,
+                        "date": "2021-06-04",
+                        "sources": [
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 155000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 100000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 30000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 30000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 21000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 20000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de THANIA ACEITON PEDR",
+                                "amount": 15000,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de THANIA ACEITON PEDR",
+                                "amount": 15000,
+                                "type": "extra"
+                            }
+                        ]
+                    },
+                    {
+                        "month": "2021-05",
+                        "total": 593962,
+                        "main": 152000,
+                        "extra": 441962,
+                        "date": "2021-05-03",
+                        "sources": [
+                            {
+                                "sender": "Transf. de SELMA LIOSKA ACEITO",
+                                "amount": 350000,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 70000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 52000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de ACEITON PEDRERO SEL",
+                                "amount": 44700,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de SELMA LIOSKA ACEITO",
+                                "amount": 30000,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 30000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de THANIA ACEITON PEDR",
+                                "amount": 15540,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "TRASPASO PARA CUBRIR SOBREGIRO",
+                                "amount": 1722,
+                                "type": "extra"
+                            }
+                        ]
+                    },
+                    {
+                        "month": "2021-04",
+                        "total": 363252,
+                        "main": 219615,
+                        "extra": 143637,
+                        "date": "2021-04-05",
+                        "sources": [
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 90000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 69615,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de SELMA ACEITON PEDRE",
+                                "amount": 60000,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 60000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Rev. SUPEROFERTA SPA TEMUCO CL 01/04/2021",
+                                "amount": 47232,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de THANIA ACEITON PEDR",
+                                "amount": 24885,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Rev. LA TIA KATY LAUTARO CL 01/04/2021",
+                                "amount": 11520,
+                                "type": "extra"
+                            }
+                        ]
+                    },
+                    {
+                        "month": "2021-03",
+                        "total": 1260000,
+                        "main": 760000,
+                        "extra": 500000,
+                        "date": "2021-03-03",
+                        "sources": [
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 700000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de SELMA ACEITON PEDRE",
+                                "amount": 500000,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 60000,
+                                "type": "main"
+                            }
+                        ]
+                    },
+                    {
+                        "month": "2021-02",
+                        "total": 1008116,
+                        "main": 120000,
+                        "extra": 888116,
+                        "date": "2021-02-01",
+                        "sources": [
+                            {
+                                "sender": "Transf. de SELMA LIOSKA ACEITO",
+                                "amount": 278485,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de SELMA ACEITON PEDRE",
+                                "amount": 251000,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de SELMA ACEITON PEDRE",
+                                "amount": 180000,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de ACEITON PEDRERO SEL",
+                                "amount": 110700,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 60000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 60000,
+                                "type": "main"
+                            },
+                            {
+                                "sender": "Transf. de PEDRERO MIRANDA GLA",
+                                "amount": 47790,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de THANIA ACEITON PEDR",
+                                "amount": 20141,
+                                "type": "extra"
+                            }
+                        ]
+                    },
+                    {
+                        "month": "2021-01",
+                        "total": 654888,
+                        "main": 75213,
+                        "extra": 579675,
+                        "date": "2021-01-11",
+                        "sources": [
+                            {
+                                "sender": "Transf. de SELMA LIOSKA ACEITO",
+                                "amount": 400000,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de ACEITON PEDRERO SEL",
+                                "amount": 179675,
+                                "type": "extra"
+                            },
+                            {
+                                "sender": "Transf. de TRANSPORTES TONINI",
+                                "amount": 75213,
+                                "type": "main"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
