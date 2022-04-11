@@ -32,7 +32,7 @@ def is_recurrent(transaction_list, recurrent_window):
 
             if list(cond) == [True]:
                 if transaction not in MI_TRANSACTIONS:
-                    final_list = [x for x in final_list if x['description'] != transaction['description']]
                     MI_TRANSACTIONS += [x for x in final_list if x['description'] == transaction['description']]
+                    final_list = [x for x in final_list if x['description'] != transaction['description']]
 
     return final_list, MI_TRANSACTIONS

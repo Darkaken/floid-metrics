@@ -5,7 +5,6 @@ from src.ERROR_LOGGING import ErrorLog
 from src.parameters_and_exceptions import *
 
 from src.initial_filters import over_minimum_quantity
-
 from src.first_stage import filter_not_words
 
 from src.second_stage import filter_high_income_words
@@ -13,11 +12,8 @@ from src.second_stage import filter_medium_income_words
 from src.second_stage import RUT_analysis
 
 from src.third_stage import is_recurrent
-
 from src.has_income import has_income
-
 from src.metrics import metrics
-
 
 def main(json_data):
 
@@ -60,7 +56,7 @@ def main(json_data):
             MSG = 'Error en la entrada de parametros'
 
         else:
-            #log_error(e.__str__(), json_data)
+            log_error(e.__str__(), json_data)
             pass
 
         return_dict = {
@@ -71,6 +67,8 @@ def main(json_data):
         return return_dict
 
 def getAllTransactions(report):
+
+    #analisis preliminar de la estructura de un reporte
 
     allTransactions = []
 
