@@ -8,8 +8,6 @@ class Parameters(object):
         'medium_income_words',
         'rut_minimo',
         'consecutividad',
-        'consecutividad_ingresos',
-        'ultimo_mes_a_considerar'
     ]
 
     def __init__(self, json_parameters):

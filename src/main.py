@@ -43,7 +43,7 @@ def main(json_data):
 
         return result
 
-    except Exception as e:
+    except ValueError as e:
 
         MSG = 'Error ha sido notificado al desarrollador y se va a solucionar en la proxima actualizacion de la API'
 
