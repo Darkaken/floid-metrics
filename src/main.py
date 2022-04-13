@@ -20,7 +20,7 @@ def main(json_data):
     try:
 
         parameter_object = Parameters(json_data['parametros'])
-        initial_transaction_list = getAllTransactions(json_data)
+        initial_transaction_list = json_data["transactions"]
 
         list_after_initial_filters = over_minimum_quantity(initial_transaction_list, parameter_object.monto_minimo_tranzado)
 
@@ -39,11 +39,9 @@ def main(json_data):
         HAS_INCOME, total_time_months = has_income(HI_TRANSACTIONS, MI_TRANSACTIONS, parameter_object.consecutividad_ingresos, parameter_object.ultimo_mes_a_considerar)
 
         result = metrics(list_after_third_stage, MI_TRANSACTIONS, HI_TRANSACTIONS, total_time_months)
-        result["has_income"] = HAS_INCOME
+        #result["has_income"] = HAS_INCOME
 
-        json_data["income"]["income_test_data"] = result
-
-        return json_data
+        return result
 
     except Exception as e:
 
