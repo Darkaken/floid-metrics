@@ -27,7 +27,7 @@ class Parameters(object):
 
     def check_integrity(self):
 
-        if self.params_ammount != 8:
+        if self.params_ammount != 6:
             raise WrongParameterAmmountError
 
 
