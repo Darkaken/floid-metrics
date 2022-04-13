@@ -36,7 +36,7 @@ def main(json_data):
 
         MI_TRANSACTIONS = MI_TRANSACTIONS + MI_TRANSACTIONS_2
 
-        HAS_INCOME, total_time_months = has_income(HI_TRANSACTIONS, MI_TRANSACTIONS, parameter_object.consecutividad_ingresos, parameter_object.ultimo_mes_a_considerar)
+        HAS_INCOME, total_time_months = has_income(HI_TRANSACTIONS, MI_TRANSACTIONS, 0, 0)
 
         result = metrics(list_after_third_stage, MI_TRANSACTIONS, HI_TRANSACTIONS, total_time_months)
         #result["has_income"] = HAS_INCOME
