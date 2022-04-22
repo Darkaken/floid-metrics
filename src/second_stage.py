@@ -42,15 +42,29 @@ def RUT_analysis(transaction_list, minimum_rut):
         transaction_description_list = transaction['description'].lower().split(' ')
 
         for substring in transaction_description_list:
-            number = re.sub("[^0-9]", "", substring.lower())
+            number = filter_zero(re.sub("[^0-9]", "", substring.lower()))
 
             if len(number) == 8 or len(number) == 9:
                 if int(number[:8]) >= minimum_rut:
+
                     RUT_TRANSACTIONS.append(transaction)
                     final_list.remove(transaction)
 
     return final_list, RUT_TRANSACTIONS
 
+def filter_zero(rut):
 
+    final = ""
+    digit_found = False
 
+    for char in rut:
+        if char == "0":
+            if digit_found:
+                final += char
+            else:
+                pass
+        else:
+            digit_found = True
+            final += char
 
+    return final

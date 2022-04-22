@@ -12,7 +12,7 @@ from src.second_stage import filter_medium_income_words
 from src.second_stage import RUT_analysis
 
 from src.third_stage import is_recurrent
-from src.has_income import has_income
+from src.has_income import month_amount
 from src.metrics import metrics
 
 def main(json_data):
@@ -20,7 +20,15 @@ def main(json_data):
     try:
 
         parameter_object = Parameters(json_data['parametros'])
+
         initial_transaction_list = json_data["transactions"]
+
+        if initial_transaction_list is None:
+            return {
+                "Error": "No hay transacciones disponibles"
+            }
+
+        total_time_months = month_amount(initial_transaction_list)
 
         list_after_initial_filters = over_minimum_quantity(initial_transaction_list, parameter_object.monto_minimo_tranzado)
 
@@ -34,16 +42,13 @@ def main(json_data):
 
         list_after_third_stage, MI_TRANSACTIONS_2 = is_recurrent(list_after_RUT_filter, parameter_object.consecutividad)
 
-        MI_TRANSACTIONS = MI_TRANSACTIONS + MI_TRANSACTIONS_2
-
-        HAS_INCOME, total_time_months = has_income(HI_TRANSACTIONS, MI_TRANSACTIONS, 0, 0)
+        MI_TRANSACTIONS = MI_TRANSACTIONS + MI_TRANSACTIONS_2 + RUT_TRANSACTIONS
 
         result = metrics(list_after_third_stage, MI_TRANSACTIONS, HI_TRANSACTIONS, total_time_months)
-        #result["has_income"] = HAS_INCOME
 
         return result
 
-    except ValueError as e:
+    except KeyError as e:
 
         MSG = 'Error ha sido notificado al desarrollador y se va a solucionar en la proxima actualizacion de la API'
 

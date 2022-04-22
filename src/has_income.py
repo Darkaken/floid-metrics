@@ -1,7 +1,6 @@
 
-def has_income(HI_transaction_list, MI_transaction_list, income_window, last_considered_month):
+def month_amount(transaction_list):
 
-    transaction_list = HI_transaction_list + MI_transaction_list
     timelist = []
 
     for transaction in transaction_list:
@@ -11,13 +10,10 @@ def has_income(HI_transaction_list, MI_transaction_list, income_window, last_con
             timelist.append(date)
 
     timelist.sort()
-    #timelist = timelist[:len(timelist) - last_considered_month]
-    return False, len(complete_date_list(timelist))
 
-
-    #if timelist[-income_window:-1] == complete_date_list(timelist[-income_window:-1]):
-    #    return True, len(timelist)
-    #return False, len(timelist)
+    if timelist == []:
+        return 0
+    return len(complete_date_list(timelist))
 
 def complete_date_list(timeList):
 
