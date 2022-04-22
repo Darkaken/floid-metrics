@@ -46,9 +46,14 @@ def RUT_analysis(transaction_list, minimum_rut):
 
             if len(number) == 8 or len(number) == 9:
                 if int(number[:8]) >= minimum_rut:
+                    if not digito_verificador(number[:8]):
 
-                    RUT_TRANSACTIONS.append(transaction)
-                    final_list.remove(transaction)
+                        if "/" not in substring:
+                            try:
+                                final_list.remove(transaction)
+                                RUT_TRANSACTIONS.append(transaction)
+                            except:
+                                pass
 
     return final_list, RUT_TRANSACTIONS
 
@@ -68,3 +73,26 @@ def filter_zero(rut):
             final += char
 
     return final
+
+def digito_verificador(rut):
+
+    rut = str(rut)
+    digito = rut[-1]
+
+    multiplication_vector = [2, 3, 4, 5, 6, 7, 2, 3]
+    total = 0
+
+    rut = rut[:-1][::-1]
+
+    for i in range(len(rut)):
+        total += int(rut[i]) * multiplication_vector[i]
+
+    verificador = 11 - (total - (total//11 * 11))
+
+    if verificador == 11:
+        verificador = 0
+
+    if verificador == int(digito):
+        return True
+    return False
+

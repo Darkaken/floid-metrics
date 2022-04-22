@@ -1,9 +1,11 @@
 
 def metrics(list_after_third_stage, MI_TRANSACTIONS, HI_TRANSACTIONS, total_time_months):
 
+    income_months = different_month_ammount(HI_TRANSACTIONS + MI_TRANSACTIONS)
+
     result = {
 
-        'regularity': different_month_ammount(HI_TRANSACTIONS) / total_time_months,
+        'regularity': f"{income_months}/{total_time_months}",
         'mainAverage' : round(sum([x['in'] for x in HI_TRANSACTIONS]) / total_time_months) + round(sum([x['in'] for x in MI_TRANSACTIONS]) / total_time_months),
         'extraAverage' : round(sum([x['in'] for x in list_after_third_stage]) / total_time_months),
     }
