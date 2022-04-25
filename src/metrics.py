@@ -4,8 +4,6 @@ def metrics(list_after_third_stage, MI_TRANSACTIONS, HI_TRANSACTIONS, total_time
     main_income = MI_TRANSACTIONS + HI_TRANSACTIONS
     income_months = different_month_ammount(main_income)
 
-    print(main_income)
-
     result = {
 
         'regularity': f"{income_months}/{total_time_months}",
@@ -14,6 +12,7 @@ def metrics(list_after_third_stage, MI_TRANSACTIONS, HI_TRANSACTIONS, total_time
         'mainIncomeDeposit': main_income_deposit(main_income),
     }
 
+    print(income_by_month(result, main_income, list_after_third_stage))
     result['incomeByMonth']: income_by_month(result, main_income, list_after_third_stage)
 
     return result
@@ -47,7 +46,8 @@ def main_income_deposit(transaction_list):
 
 def income_by_month(result, main_income, extra_income):
 
-    transactions_by_month = []
+    transactions_by_month = {}
+    result["incomeByMonth"] = []
 
     for transaction in main_income:
         date = int("".join(transaction["date"].split("-")[:2]))
@@ -60,13 +60,13 @@ def income_by_month(result, main_income, extra_income):
     for date, value in transactions_by_month.items():
 
         result['incomeByMonth'].append({
-            'month': f'{str(date)[:3]}-{str(date[4:])}',
+            'month': f'{str(date)[:4]}-{str(date[4:])}',
             'main': round(sum(transaction['in'] for transaction in value)),
             'extra': 0,
             'sources': [expand_transaction(transaction, 'main') for transaction in value]
         })
 
-    transactions_by_month = []
+    transactions_by_month = {}
 
     for transaction in extra_income:
         date = int("".join(transaction["date"].split("-")[:2]))
@@ -78,7 +78,7 @@ def income_by_month(result, main_income, extra_income):
 
     for date, value in transactions_by_month.items():
         result['incomeByMonth'].append({
-            'month': f'{str(date)[:3]}-{str(date[4:])}',
+            'month': f'{str(date)[:4]}-{str(date[4:])}',
             'extra': round(sum(transaction['in'] for transaction in value)),
             'sources': [expand_transaction(transaction, 'main') for transaction in value]
         })
