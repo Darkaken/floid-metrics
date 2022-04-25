@@ -66,27 +66,23 @@ def income_by_month(result, main_income, extra_income):
             'sources': [expand_transaction(transaction, 'main') for transaction in value]
         })
 
-    transactions_by_month = {}
+    extra_by_month = {}
 
     for transaction in extra_income:
         date = int("".join(transaction["date"].split("-")[:2]))
 
-        try:
-            transactions_by_month[str(date)].append(transaction)
-        except:
-            transactions_by_month[str(date)] = [transaction]
-
-    for date, value in transactions_by_month.items():
-        result['incomeByMonth'].append({
-            'month': f'{str(date)[:4]}-{str(date[4:])}',
-            'extra': round(sum(transaction['in'] for transaction in value)),
-            'sources': [expand_transaction(transaction, 'main') for transaction in value]
-        })
+        if date == 202201:
+            print(transaction)
 
         try:
-            result['incomeByMonth'][-1]['main'] += 0
+            extra_by_month[str(date)] += transaction["in"]
         except:
-            result['incomeByMonth'][-1]['main'] = 0
+            extra_by_month[str(date)] = transaction["in"]
+
+    for bundle in result["incomeByMonth"]:
+        for date, value in extra_by_month.items():
+            if f'{str(date)[:4]}-{str(date[4:])}' == bundle["month"]:
+                bundle["extra"] = value
 
     return result
 
