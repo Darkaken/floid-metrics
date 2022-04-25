@@ -4,6 +4,8 @@ def metrics(list_after_third_stage, MI_TRANSACTIONS, HI_TRANSACTIONS, total_time
     main_income = MI_TRANSACTIONS + HI_TRANSACTIONS
     income_months = different_month_ammount(main_income)
 
+    print(main_income)
+
     result = {
 
         'regularity': f"{income_months}/{total_time_months}",
@@ -12,7 +14,7 @@ def metrics(list_after_third_stage, MI_TRANSACTIONS, HI_TRANSACTIONS, total_time
         'mainIncomeDeposit': main_income_deposit(main_income),
     }
 
-    result['incomeByMonth']: income_by_month(self, main_income, list_after_third_stage)
+    result['incomeByMonth']: income_by_month(result, main_income, list_after_third_stage)
 
     return result
 
