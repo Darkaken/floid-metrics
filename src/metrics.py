@@ -12,8 +12,9 @@ def metrics(list_after_third_stage, MI_TRANSACTIONS, HI_TRANSACTIONS, total_time
         'mainIncomeDeposit': main_income_deposit(main_income),
     }
 
-    print(income_by_month(result, main_income, list_after_third_stage))
-    result['incomeByMonth']: income_by_month(result, main_income, list_after_third_stage)
+    income_by_month(result, main_income, list_after_third_stage)
+
+    #result['incomeByMonth']: income_by_month(result, main_income, list_after_third_stage)
 
     return result
 
@@ -70,9 +71,6 @@ def income_by_month(result, main_income, extra_income):
 
     for transaction in extra_income:
         date = int("".join(transaction["date"].split("-")[:2]))
-
-        if date == 202201:
-            print(transaction)
 
         try:
             extra_by_month[str(date)] += transaction["in"]

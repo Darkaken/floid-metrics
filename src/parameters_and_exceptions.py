@@ -24,11 +24,19 @@ class Parameters(object):
                 self.params_ammount += 1
 
         self.check_integrity()
+        self.lower_strings()
 
     def check_integrity(self):
 
         if self.params_ammount != 6:
             raise WrongParameterAmmountError
+
+    def lower_strings(self):
+
+        self.high_income_words = [string.lower() for string in self.high_income_words]
+        self.not_income_words = [string.lower() for string in self.not_income_words]
+        self.medium_income_words = [string.lower() for string in self.medium_income_words]
+
 
 
 class WrongParameterNameError(Exception):
