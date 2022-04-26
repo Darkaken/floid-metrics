@@ -4,14 +4,18 @@ def month_amount(transaction_list):
     timelist = []
 
     for transaction in transaction_list:
-        date = int("".join(transaction["date"].split("-")[:2]))
+
+        try:
+            date = int("".join(transaction["date"].split("-")[:2]))
+        except:
+            print(transaction)
 
         if date not in timelist:
             timelist.append(date)
 
     timelist.sort()
 
-    if timelist == []:
+    if not timelist:
         return 0
     return len(complete_date_list(timelist))
 
