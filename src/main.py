@@ -1,4 +1,4 @@
-
+import json
 import pickle
 
 from src.ERROR_LOGGING import ErrorLog
@@ -14,6 +14,8 @@ from src.second_stage import RUT_analysis
 from src.third_stage import is_recurrent
 from src.has_income import month_amount
 from src.metrics import metrics
+
+import json
 
 def main(json_data):
 
@@ -46,7 +48,7 @@ def main(json_data):
 
         result = metrics(list_after_third_stage, MI_TRANSACTIONS, HI_TRANSACTIONS, total_time_months)
 
-        return result
+        return json.dumps(result, sort_keys=False)
 
     except SyntaxError as e:
 

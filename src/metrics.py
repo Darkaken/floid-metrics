@@ -1,6 +1,4 @@
 
-from collections import OrderedDict
-
 def metrics(list_after_third_stage, MI_TRANSACTIONS, HI_TRANSACTIONS, total_time_months):
 
     main_income = MI_TRANSACTIONS + HI_TRANSACTIONS
@@ -9,14 +7,15 @@ def metrics(list_after_third_stage, MI_TRANSACTIONS, HI_TRANSACTIONS, total_time
     main_i = round(sum([x['in'] for x in main_income]) / total_time_months)
     extra_i = round(sum([x['in'] for x in list_after_third_stage]) / total_time_months)
 
-    result = OrderedDict()
+    result = {
 
-    result['regularity'] = f"{income_months}/{total_time_months}"
-    result['totalAverage'] = main_i + extra_i
-    result['extraAverage'] = extra_i
-    result['mainAverage'] = main_i
+        'regularity' : f"{income_months}/{total_time_months}",
+        'totalAverage' : main_i + extra_i,
+        'mainAverage': main_i,
+        'extraAverage' : extra_i,
+        'mainIncomeDeposit' : main_income_deposit(main_income),
 
-    result['mainIncomeDeposit'] = main_income_deposit(main_income)
+    }
 
     income_by_month(result, main_income, list_after_third_stage)
 

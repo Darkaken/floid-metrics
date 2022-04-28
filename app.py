@@ -4,6 +4,8 @@ from flask_restful import Api
 from src.main import main
 from src.main_santander import main_santander
 
+import json
+
 app = Flask(__name__)
 api = Api(app)
 
@@ -19,3 +21,4 @@ def get_income_santander():
 
 if __name__ == '__main__':
     app.run(debug = True)
+
